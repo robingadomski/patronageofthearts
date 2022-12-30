@@ -1,0 +1,17 @@
+country_decisions = {
+	patronage_of_the_arts_1_1450s = {
+		potential = {
+			culture_group = germanic
+		}
+		allow = {
+			has_dip_advisor = yes
+			years_of_income = 1
+			dip_power = 200
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts.1
+			}
+		}
+	}
+}
