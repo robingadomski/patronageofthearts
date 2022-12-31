@@ -69,3 +69,10 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGE10009_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGE10009_eventPicture.dds"
+		alwaystransparent = yes
+	}	
+}

@@ -1,8 +1,8 @@
 ﻿l_english:
-  patronage_of_the_arts_EVTTITLE00001:0 "Patronage of the Renaissance Arts."
+  patronage_of_the_arts_EVTTITLE00001:0 "Patronage of the Early Renaissance Arts."
   patronage_of_the_arts_EVTDESC00001:0 "We should invest into the renaissance art. Investing in art will improve our cultural identity and attract merchants from far and beyond to invest into our country. Who shall we hire to create our next masterpieces?"
   patronage_of_the_arts_EVTOPT00002:0 "We should invest in a Local artist. Perhaps Van Eyck or Van Der Weyden?"
-  patronage_of_the_arts_EVTOPT00003:0 "We should commission Italian artist to paint for us. Perhaps Da Messina or Bellini?"
+  patronage_of_the_arts_EVTOPT00003:0 "We should commission an Italian artist to paint for us. Perhaps Da Messina or Bellini?"
   patronage_of_the_arts_EVTOPT00004:0 "We should commission someone from Spain, France, or Muscovy."
   patronage_of_the_arts_EVTOPT00005:0 "We have no time for these activities."
   patronage_of_the_arts_EVTTITLE00002:0 "Hire a great Flemish Primitive"
@@ -53,5 +53,8 @@
   patronage_of_the_arts_EVTOPT00328:0 "An icon of Saint Nicholas"
   patronage_of_the_arts_EVTOPT00329:0 "A painting depicting the descent into hell"
   patronage_of_the_arts_EVTOPT00330:0 "A large icon of Christ"
-
-  
+  patronage_of_the_arts_renaissanceEVTTITLE00001:0 "Patronage of the Renaissance and Mannerist Arts"
+  patronage_of_the_arts_renaissanceEVTTDESC00001:0 "We should invest into renaissance and mannerist art. Investing in art will improve our cultural identity and attract merchants from far and beyond to invest into our country. Who shall we hire to create our next masterpieces?"
+  patronage_of_the_arts_renaissanceEVTOPT00002:0 "We should invest in local artists like Bosch, Gossaert, or Aertsz"
+  patronage_of_the_arts_renaissanceEVTOPT00003:0 "We should invest in Italian artists like Raphael, Michelangelo, or Da Vinci"
+  patronage_of_the_arts_renaissanceEVTOPT00004:0 "We should look further. Perhaps France, Spain, Or The Ottoman Empire?"

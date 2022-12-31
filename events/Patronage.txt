@@ -1,24 +1,16 @@
 ﻿namespace = patronage_of_the_arts_namespace
 country_event = {
-	id = patronage_of_the_arts.1
+	id = patronage_of_the_arts.1 #1450-1500
 	title = "patronage_of_the_arts_EVTTITLE00001"	#Patronage of the Renaissance Arts.
 	desc = "patronage_of_the_arts_EVTDESC00001"	#We should invest into the renaissance art...
 	picture = ARTPATRONAGE_eventPicture
+	is_triggered_only = yes
 	trigger = {
-		is_year = 144
+		is_year = 1444
 		NOT = {
 			is_year = 1500
 		}
 		primary_culture = dutch
-	}
-	mean_time_to_happen = {
-		months = 400
-		modifier = {
-			factor = 0.8
-			NOT = {
-				stability = 0
-			}
-		}
 	}
 	option = {
 		#goes to option ID 2 (OPTION1)
@@ -54,7 +46,7 @@ country_event = {
 		#exit  (OPTION4) 
 		name = "patronage_of_the_arts_EVTOPT00005"
 		add_treasury = 5
-		add_prestige = -10
+		add_prestige = -5
 	}
 }
 
@@ -221,6 +213,7 @@ country_event = {
 		add_prestige = 25
 	}
 }
+
 country_event = {
 	#ANTONELLODAMESSINA
 	id = patronage_of_the_arts.31

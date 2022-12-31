@@ -1,16 +1,20 @@
 country_decisions = {
-	patronage_of_the_arts_1_1450s = {
+	patronage_of_the_arts_1_1500s = {
 		potential = {
 			culture_group = germanic
 		}
 		allow = {
+			has_mil_advisor = yes
+			has_adm_advisor = yes
 			has_dip_advisor = yes
-			years_of_income = 1
-			dip_power = 200
+			years_of_income = 3
+			dip_power = 400
+			adm_power = 400
+			mil_power = 400
 		}
 		effect = {
 			country_event = {
-				id = patronage_of_the_arts.1
+				id = patronageofrenaissancemod.1
 			}
 		}
 	}
