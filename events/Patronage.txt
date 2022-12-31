@@ -1,11 +1,11 @@
-﻿namespace = patronage_of_the_arts_namespace
+namespace = patronage_of_the_arts
 country_event = {
 	id = patronage_of_the_arts.1
 	title = "patronage_of_the_arts_EVTTITLE00001"	#Patronage of the Renaissance Arts.
 	desc = "patronage_of_the_arts_EVTDESC00001"	#We should invest into the renaissance art...
 	picture = ARTPATRONAGE_eventPicture
 	trigger = {
-		is_year = 144
+		is_year = 1443
 		NOT = {
 			is_year = 1500
 		}

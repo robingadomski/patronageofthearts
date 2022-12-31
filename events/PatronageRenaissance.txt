@@ -1,0 +1,11 @@
+namespace = patronageoftheartsrenaissance
+country_event = {
+	id = patronageoftheartsrenaissance.1
+	option = {
+		#goes to option ID 2 (OPTION1)
+		name = "patronage_of_the_arts_EVTOPT00002"		#invest in Local art (Dutch)
+		hidden_effect = {
+			add_dip_power = 25
+		}
+	}
+}
