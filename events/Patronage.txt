@@ -184,34 +184,6 @@ country_event = {
 	}
 }
 
-country_event = {
-	#ROGIERVANDERWEYDEN
-	id = patronage_of_the_arts.22
-	title = "patronage_of_the_arts_EVTTITLE00122"
-	desc = "patronage_of_the_arts_EVTDESC00122"
-	picture = ARTPATRONAGE10003_eventPicture
-	is_triggered_only = yes
-	option = {
-		name = "patronage_of_the_arts_EVTOPT00125"		#VanDerWeyden1
-		add_treasury = -100
-		add_dip_power = 40
-		add_mil_power = 50
-		add_prestige = 25
-	}
-	option = {
-		name = "patronage_of_the_arts_EVTOPT00126"		#VanDerWeyden2
-		add_treasury = -38
-		add_dip_power = 40
-		add_mil_power = 50
-		add_prestige = 25
-	}
-	option = {
-		name = "patronage_of_the_arts_EVTOPT00127"		#VanDerWeyden3
-		add_treasury = -80
-		add_dip_power = 40
-		add_mil_power = 50
-		add_prestige = 25
-	}
 }
 
 country_event = {
