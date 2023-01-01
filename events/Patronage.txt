@@ -10,7 +10,12 @@ country_event = {
 		NOT = {
 			is_year = 1500
 		}
-		primary_culture = dutch
+		OR = {
+			culture_group = germanic
+			culture_group = latin
+			culture_group = french
+			culture_group = iberian
+		}
 	}
 	option = {
 		#goes to option ID 2 (OPTION1)
@@ -60,7 +65,7 @@ country_event = {
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00021"		#Van Eyck
 		add_treasury = -10
-		add_prestige = 10
+		add_prestige = 2
 		hidden_effect = {
 			country_event = {
 				id = patronage_of_the_arts.21
@@ -71,7 +76,7 @@ country_event = {
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00022"		#Van Der Weyden
 		add_treasury = -12
-		add_prestige = 10
+		add_prestige = 3
 		hidden_effect = {
 			country_event = {
 				id = patronage_of_the_arts.22
@@ -91,7 +96,7 @@ country_event = {
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00031"		#Da Messina
 		add_treasury = -12
-		add_prestige = 5
+		add_prestige = 3
 		hidden_effect = {
 			country_event = {
 				id = patronage_of_the_arts.31
@@ -102,7 +107,7 @@ country_event = {
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00032"		#Bellini
 		add_treasury = -15
-		add_prestige = 5
+		add_prestige = 4
 		hidden_effect = {
 			country_event = {
 				id = patronage_of_the_arts.32
@@ -122,7 +127,7 @@ country_event = {
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00041"		#Spain,Jacomart
 		add_treasury = -12
-		add_prestige = 5
+		add_prestige = 3
 		hidden_effect = {
 			country_event = {
 				id = patronage_of_the_arts.41
@@ -133,7 +138,7 @@ country_event = {
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00042"		#France
 		add_treasury = -15
-		add_prestige = 7
+		add_prestige = 3
 		hidden_effect = {
 			country_event = {
 				id = patronage_of_the_arts.42
@@ -144,7 +149,7 @@ country_event = {
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00043"		#Muscovy,DionysiyTheWise
 		add_treasury = -20
-		add_prestige = 10
+		add_prestige = 4
 		hidden_effect = {
 			country_event = {
 				id = patronage_of_the_arts.43
@@ -163,24 +168,42 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00122"		#Van Eyck1
-		add_treasury = -20
+		add_treasury = -100
 		add_dip_power = 15
 		add_mil_power = 25
 		add_prestige = 10
+		add_legitimacy = 5
+		add_papal_influence = 5
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00123"		#Van Eyck2
-		add_treasury = -50
+		add_treasury = -200
 		add_dip_power = 25
 		add_mil_power = 25
-		add_prestige = 20
+		add_prestige = 13
+		add_legitimacy = 8
+		add_papal_influence = 8
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00124"		#Van Eyck3
-		add_treasury = -100
-		add_dip_power = 40
+		add_treasury = -225
+		add_dip_power = 50
 		add_mil_power = 50
-		add_prestige = 25
+		add_prestige = 17
+		add_legitimacy = 10
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
 	}
 }
 
@@ -196,21 +219,39 @@ country_event = {
 		add_treasury = -100
 		add_dip_power = 40
 		add_mil_power = 50
-		add_prestige = 25
+		add_prestige = 12
+		add_legitimacy = 5
+		add_papal_influence = 5
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00126"		#VanDerWeyden2
-		add_treasury = -38
+		add_treasury = -125
 		add_dip_power = 40
 		add_mil_power = 50
-		add_prestige = 25
+		add_prestige = 14
+		add_legitimacy = 8
+		add_papal_influence = 8
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00127"		#VanDerWeyden3
-		add_treasury = -80
+		add_treasury = -180
 		add_dip_power = 40
 		add_mil_power = 50
-		add_prestige = 25
+		add_prestige = 18
+		add_legitimacy = 10
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
 	}
 }
 
@@ -223,15 +264,74 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00222"		#Damessina1
-		add_treasury = -20
+		add_treasury = -120
+		add_dip_power = 25
+		add_mil_power = 15
+		add_prestige = 13
+		add_legitimacy = 5
+		add_papal_influence = 5
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00223"		#Damessina2
-		add_treasury = -50
+		add_treasury = -170
+		add_dip_power = 35
+		add_mil_power = 35
+		add_prestige = 16
+		add_legitimacy = 8
+		add_papal_influence = 8
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00224"		#Damessina3
-		add_treasury = -100
+		add_treasury = -200
+		add_dip_power = 50
+		add_mil_power = 50
+		add_prestige = 19
+		add_legitimacy = 10
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = MLO
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = SAV
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = PAP
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = SIE
+			modifier = merchants_standing_down
+		}
 	}
 }
 
@@ -244,15 +344,106 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00225"		#Botticelli1
-		add_treasury = -20
+		add_treasury = -150
+		add_dip_power = 25
+		add_mil_power = 15
+		add_prestige = 13
+		add_legitimacy = 8
+		add_papal_influence = 8
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00226"		#Botticelli2
-		add_treasury = -50
+		add_treasury = -225
+		add_dip_power = 35
+		add_mil_power = 35
+		add_prestige = 15
+		add_legitimacy = 10
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = MLO
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = SAV
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = PAP
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = SIE
+			modifier = merchants_standing_down
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00227"		#Botticelli3
-		add_treasury = -100
+		add_treasury = -400
+		add_dip_power = 75
+		add_mil_power = 75
+		add_prestige = 20
+		add_legitimacy = 13
+		add_papal_influence = 13
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = MLO
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = SAV
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = PAP
+			modifier = merchants_standing_down
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = SIE
+			modifier = merchants_standing_down
+		}
 	}
 }
 
@@ -265,24 +456,42 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00322"		#JACOMART1
-		add_treasury = -20
-		add_dip_power = 15
-		add_mil_power = 25
+		add_treasury = -150
+		add_dip_power = 25
+		add_mil_power = 15
 		add_prestige = 10
+		add_legitimacy = 7
+		add_papal_influence = 7
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00323"		#JACOMART2
-		add_treasury = -50
-		add_dip_power = 25
-		add_mil_power = 25
-		add_prestige = 20
+		add_treasury = -200
+		add_dip_power = 35
+		add_mil_power = 35
+		add_prestige = 13
+		add_legitimacy = 10
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00324"		#JACOMART3
-		add_treasury = -100
+		add_treasury = -250
 		add_dip_power = 40
 		add_mil_power = 50
-		add_prestige = 25
+		add_prestige = 16
+		add_legitimacy = 12
+		add_papal_influence = 12
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
 	}
 }
 
@@ -295,24 +504,66 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00325"		#FOUQUET1
-		add_treasury = -20
+		add_treasury = -125
 		add_dip_power = 15
 		add_mil_power = 25
-		add_prestige = 10
+		add_prestige = 7
+		add_legitimacy = 7
+		add_papal_influence = 7
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		reverse_add_opinion = {
+			who = FRA
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = FRA
+			modifier = merchants_standing_down
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00326"		#FOUQUET2
-		add_treasury = -50
-		add_dip_power = 25
-		add_mil_power = 25
-		add_prestige = 20
+		add_treasury = -150
+		add_dip_power = 20
+		add_mil_power = 30
+		add_prestige = 10
+		add_legitimacy = 10
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
+		reverse_add_opinion = {
+			who = FRA
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = FRA
+			modifier = merchants_standing_down
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00327"		#FOUQUET3
-		add_treasury = -100
+		add_treasury = -175
 		add_dip_power = 40
-		add_mil_power = 50
-		add_prestige = 25
+		add_mil_power = 40
+		add_prestige = 13
+		add_legitimacy = 12
+		add_papal_influence = 12
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+		reverse_add_opinion = {
+			who = FRA
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = FRA
+			modifier = merchants_standing_down
+		}
 	}
 }
 
@@ -325,24 +576,66 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00328"		#DionysiyTheWise1
-		add_treasury = -50
+		add_treasury = -200
 		add_dip_power = 15
 		add_mil_power = 25
-		add_prestige = 10
+		add_prestige = 7
+		add_legitimacy = 7
+		add_papal_influence = 7
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		reverse_add_opinion = {
+			who = MOS
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = MOS
+			modifier = merchants_standing_down
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00329"		#DionysiyTheWise2
-		add_treasury = -60
+		add_treasury = -225
 		add_dip_power = 25
 		add_mil_power = 25
-		add_prestige = 20
+		add_prestige = 12
+		add_legitimacy = 10
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
+		reverse_add_opinion = {
+			who = MOS
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = MOS
+			modifier = merchants_standing_down
+		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00330"		#DionysiyTheWise3
-		add_treasury = -80
+		add_treasury = -275
 		add_dip_power = 40
 		add_mil_power = 50
-		add_prestige = 25
+		add_prestige = 15
+		add_legitimacy = 12
+		add_papal_influence = 12
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+		reverse_add_opinion = {
+			who = MOS
+			modifier = merchants_standing_down
+		}
+		add_opinion = {
+			who = MOS
+			modifier = merchants_standing_down
+		}
 	}
 }
 
@@ -356,6 +649,18 @@ country_event = {
 	desc = "patronageoftheartsrenaissanceEVTDESC00001"
 	picture = ARTPATRONAGE10009_eventPicture
 	is_triggered_only = yes
+	trigger = {
+		is_year = 1500
+		NOT = {
+			is_year = 1550
+		}
+		OR = {
+			culture_group = germanic
+			culture_group = latin
+			culture_group = french
+			culture_group = iberian
+		}
+	}
 	option = {
 		#option1:localrenaissancemannerist
 		name = "patronageoftheartsrenaissance_EVTOPT00001"		#invest in Local art (Dutch)
@@ -445,8 +750,8 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsrenaissance_EVTOPT00021"		#Da Vinci
-		add_treasury = -200
-		add_prestige = 25
+		add_treasury = -500
+		add_prestige = 10
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsrenaissance.21
@@ -456,8 +761,8 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsrenaissance_EVTOPT00022"		#Raphael
-		add_treasury = -175
-		add_prestige = 17
+		add_treasury = -375
+		add_prestige = 7
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsrenaissance.22
@@ -467,13 +772,830 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsrenaissance_EVTOPT00023"		#Michelangelo
-		add_treasury = -150
-		add_prestige = 15
+		add_treasury = -350
+		add_prestige = 7
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsrenaissance.23
 				days = 2
 			}
+		}
+	}
+}
+
+country_event = {
+	#BOSCH
+	id = patronageoftheartsrenaissance.11
+	title = "patronageoftheartsrenaissance_EVTTITLE00111"
+	desc = "patronageoftheartsrenaissance_EVTDESC00111"
+	picture = ARTPATRONAGE10012_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00111"		#BOSCH1
+		add_treasury = -350
+		add_dip_power = 15
+		add_mil_power = 25
+		add_prestige = 8
+		add_legitimacy = 7
+		add_papal_influence = 7
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00112"		#BOSCH2
+		add_treasury = -500
+		add_dip_power = 25
+		add_mil_power = 25
+		add_prestige = 13
+		add_legitimacy = 10
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 4
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00113"		#BOSCH3
+		add_treasury = -800
+		add_dip_power = 40
+		add_mil_power = 50
+		add_prestige = 18
+		add_legitimacy = 12
+		add_papal_influence = 12
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 5
+		}
+	}
+}
+
+country_event = {
+	#Brueghel
+	id = patronageoftheartsrenaissance.12
+	title = "patronageoftheartsrenaissance_EVTTITLE00112"
+	desc = "patronageoftheartsrenaissance_EVTDESC00112"
+	picture = ARTPATRONAGE10013_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00121"		#Bruegel1
+		add_treasury = -350
+		add_dip_power = 15
+		add_mil_power = 25
+		add_prestige = 10
+		add_papal_influence = -15
+		add_legitimacy = 7
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00122"		#Bruegel2
+		add_treasury = -410
+		add_dip_power = 25
+		add_mil_power = 25
+		add_prestige = 13
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 4
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00123"		##Bruegel3
+		add_treasury = -500
+		add_dip_power = 40
+		add_mil_power = 50
+		add_prestige = 16
+		add_papal_influence = 13
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 5
+		}
+	}
+}
+
+country_event = {
+	#Dürer
+	id = patronageoftheartsrenaissance.13
+	title = "patronageoftheartsrenaissance_EVTTITLE00113"
+	desc = "patronageoftheartsrenaissance_EVTDESC00113"
+	picture = ARTPATRONAGE10014_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00131"		#Durer1
+		add_treasury = -500
+		add_dip_power = 15
+		add_mil_power = 25
+		add_prestige = 10
+		add_papal_influence = 20
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00132"		#Durer2
+		add_treasury = -700
+		add_dip_power = 25
+		add_mil_power = 25
+		add_prestige = 13
+		add_papal_influence = 20
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00133"		#Durer3
+		add_treasury = -1000
+		add_dip_power = 40
+		add_mil_power = 50
+		add_prestige = 16
+		add_papal_influence = 20
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+		
+	}
+}
+
+country_event = {
+	#LeonardoDaVinci
+	id = patronageoftheartsrenaissance.21
+	title = "patronageoftheartsrenaissance_EVTTITLE00211"
+	desc = "patronageoftheartsrenaissance_EVTDESC00211"
+	picture = ARTPATRONAGE10015_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00211"		#LeonardoDaVinci1
+		add_treasury = -2500
+		add_dip_power = 150
+		add_mil_power = 150
+		add_prestige = 15
+		add_papal_influence = 20
+		add_fervor = 50
+		add_legitimacy = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 5
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00212"		#LeonardoDaVinci2
+		add_treasury = -3500
+		add_dip_power = 200
+		add_mil_power = 200
+		add_adm_power = 200
+		add_prestige = 25
+		add_papal_influence = 50
+		add_fervor = 75
+		add_legitimacy = 20
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 5
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00213"		#LeonardoDaVinci3
+		add_treasury = -7500
+		add_dip_power = 500
+		add_mil_power = 400
+		add_adm_power = 400
+		add_prestige = 35
+		add_papal_influence = 100
+		add_fervor = 100
+		add_legitimacy = 25
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 15
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+}
+
+country_event = {
+	#Raphael
+	id = patronageoftheartsrenaissance.22
+	title = "patronageoftheartsrenaissance_EVTTITLE00221"
+	desc = "patronageoftheartsrenaissance_EVTDESC00221"
+	picture = ARTPATRONAGE10016_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00221"		#Raphael1
+		add_treasury = -3000
+		add_dip_power = 150
+		add_mil_power = 150
+		add_prestige = 20
+		add_papal_influence = 30
+		add_fervor = 50
+		add_legitimacy = 10
+		reverse_add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00222"		#Raphael2
+		add_treasury = -3500
+		add_dip_power = 200
+		add_mil_power = 150
+		add_prestige = 22
+		add_papal_influence = 50
+		add_fervor = 75
+		add_legitimacy = 12
+		reverse_add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00223"		#Raphael3
+		add_treasury = -5500
+		add_dip_power = 300
+		add_mil_power = 200
+		add_prestige = 25
+		add_papal_influence = 50
+		add_fervor = 100
+		add_legitimacy = 15
+		reverse_add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+}
+
+country_event = {
+	#Michelangelo
+	id = patronageoftheartsrenaissance.23
+	title = "patronageoftheartsrenaissance_EVTTITLE00231"
+	desc = "patronageoftheartsrenaissance_EVTDESC00231"
+	picture = ARTPATRONAGE10017_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00231"		#Michelangelo1
+		add_treasury = -1500
+		add_dip_power = 150
+		add_mil_power = 150
+		add_prestige = 25
+		add_papal_influence = 50
+		add_fervor = 100
+		add_legitimacy = 15
+		reverse_add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00232"		#Michelangelo2
+		add_treasury = -2000
+		add_dip_power = 200
+		add_mil_power = 150
+		add_prestige = 35
+		add_papal_influence = 50
+		add_fervor = 100
+		add_legitimacy = 15
+		reverse_add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00233"		#Michelangelo3
+		add_treasury = -3000
+		add_dip_power = 325
+		add_mil_power = 225
+		add_prestige = 45
+		add_papal_influence = 50
+		add_fervor = 100
+		add_legitimacy = 15
+		reverse_add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = VEN
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = MLO
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SAV
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = PAP
+			modifier = mam_poem_recieved
+		}
+		reverse_add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = SIE
+			modifier = mam_poem_recieved
+		}
+	}
+}
+
+country_event = {
+	#Abroad
+	id = patronageofthearts_renaissanceoption.3
+	title = "patronageoftheartsrenaissance_EVTTITLE00031"
+	desc = "patronageoftheartsrenaissance_EVTDESC00031"
+	picture = ARTPATRONAGE10018_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00031"		#FranceJeanClouet
+		add_treasury = -80
+		add_prestige = 8
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.31
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00032"		#Ottoman
+		add_treasury = -120
+		add_prestige = 12
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.32
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00033"		#Poland
+		add_treasury = -150
+		add_prestige = 15
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.33
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	#JeanClouet
+	id = patronageoftheartsrenaissance.31
+	title = "patronageoftheartsrenaissance_EVTTITLE00311"
+	desc = "patronageoftheartsrenaissance_EVTDESC00311"
+	picture = ARTPATRONAGE10019_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00311"		#Clouet1
+		add_treasury = -200
+		add_dip_power = 60
+		add_mil_power = 60
+		add_prestige = 15
+		reverse_add_opinion = {
+			who = FRA
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = FRA
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00312"		#Clouet2
+		add_treasury = -300
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 22
+		reverse_add_opinion = {
+			who = FRA
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = FRA
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00313"		#Clouet3
+		add_treasury = -500
+		add_dip_power = 150
+		add_mil_power = 125
+		add_prestige = 25
+		reverse_add_opinion = {
+			who = FRA
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = FRA
+			modifier = mam_poem_recieved
+		}
+	}
+}
+
+country_event = {
+	#Matrakçi Nasuh
+	id = patronageoftheartsrenaissance.32
+	title = "patronageoftheartsrenaissance_EVTTITLE00321"
+	desc = "patronageoftheartsrenaissance_EVTDESC00321"
+	picture = ARTPATRONAGE10020_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00321"		#Matrakçi Nasuh1
+		add_treasury = -200
+		add_dip_power = 60
+		add_mil_power = 60
+		add_prestige = 15
+		reverse_add_opinion = {
+			who = TUR
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = TUR
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00322"		#Matrakçi Nasuh2
+		add_treasury = -300
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 22
+		reverse_add_opinion = {
+			who = TUR
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = TUR
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00323"		#Matrakçi Nasuh3
+		add_treasury = -500
+		add_dip_power = 150
+		add_mil_power = 125
+		add_prestige = 25
+		add_navy_tradition = 5
+		add_army_professionalism = 0.02
+		add_army_tradition = 2
+		reverse_add_opinion = {
+			who = TUR
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = TUR
+			modifier = mam_poem_recieved
+		}
+	}
+}
+
+country_event = {
+	#Stanisław Samostrzelnik
+	id = patronageoftheartsrenaissance.33
+	title = "patronageoftheartsrenaissance_EVTTITLE00331"
+	desc = "patronageoftheartsrenaissance_EVTDESC00331"
+	picture = ARTPATRONAGE10021_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00331"		#Stanisław Samostrzelnik
+		add_treasury = -200
+		add_dip_power = 60
+		add_mil_power = 60
+		add_prestige = 15
+		add_papal_influence = 20
+		reverse_add_opinion = {
+			who = POL
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = POL
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00332"		#Stanisław Samostrzelnik
+		add_treasury = -300
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 22
+		add_papal_influence = 25
+		reverse_add_opinion = {
+			who = POL
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = POL
+			modifier = mam_poem_recieved
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00333"		#Stanisław Samostrzelnik
+		add_treasury = -500
+		add_dip_power = 150
+		add_mil_power = 125
+		add_prestige = 25
+		add_papal_influence = 30
+		reverse_add_opinion = {
+			who = POL
+			modifier = mam_poem_recieved
+		}
+		add_opinion = {
+			who = POL
+			modifier = mam_poem_recieved
 		}
 	}
 }

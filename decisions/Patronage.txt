@@ -1,7 +1,12 @@
 country_decisions = {
 	patronage_of_the_arts_1_1450s = {
 		potential = {
-			culture_group = germanic
+			OR = { 
+				culture_group = germanic
+				culture_group = latin
+				culture_group = french
+				culture_group = iberian
+			}
 		}
 		allow = {
 			has_dip_advisor = yes
@@ -18,7 +23,12 @@ country_decisions = {
 country_decisions = {
 	patronage_of_the_arts_1_1500s = {
 		potential = {
-			culture_group = germanic
+			OR = {	
+				culture_group = germanic
+				culture_group = latin
+				culture_group = french
+				culture_group = iberian
+			}
 		}
 		allow = {
 			has_dip_advisor = yes
