@@ -15,3 +15,23 @@ country_decisions = {
 		}
 	}
 }
+country_decisions = {
+	patronage_of_the_arts_1_1500s = {
+		potential = {
+			culture_group = germanic
+		}
+		allow = {
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+			has_adm_advisor = yes
+			stability = 1
+			years_of_income = 8
+
+		}
+		effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.1
+			 } 
+		}
+	}
+}

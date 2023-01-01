@@ -4,21 +4,13 @@ country_event = {
 	title = "patronage_of_the_arts_EVTTITLE00001"	#Patronage of the Renaissance Arts.
 	desc = "patronage_of_the_arts_EVTDESC00001"	#We should invest into the renaissance art...
 	picture = ARTPATRONAGE_eventPicture
+	is_triggered_only = yes
 	trigger = {
 		is_year = 1443
 		NOT = {
 			is_year = 1500
 		}
 		primary_culture = dutch
-	}
-	mean_time_to_happen = {
-		months = 400
-		modifier = {
-			factor = 0.8
-			NOT = {
-				stability = 0
-			}
-		}
 	}
 	option = {
 		#goes to option ID 2 (OPTION1)
@@ -221,6 +213,7 @@ country_event = {
 		add_prestige = 25
 	}
 }
+
 country_event = {
 	#ANTONELLODAMESSINA
 	id = patronage_of_the_arts.31
@@ -243,22 +236,22 @@ country_event = {
 }
 
 country_event = {
-	#GIOVANNIBELLINI
+	#SANDROBOTICELLI
 	id = patronage_of_the_arts.32
 	title = "patronage_of_the_arts_EVTTITLE00222"
 	desc = "patronage_of_the_arts_EVTDESC00222"
 	picture = ARTPATRONAGE10004_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = "patronage_of_the_arts_EVTOPT00225"		#Bellini1
+		name = "patronage_of_the_arts_EVTOPT00225"		#Botticelli1
 		add_treasury = -20
 	}
 	option = {
-		name = "patronage_of_the_arts_EVTOPT00226"		#Bellini2
+		name = "patronage_of_the_arts_EVTOPT00226"		#Botticelli2
 		add_treasury = -50
 	}
 	option = {
-		name = "patronage_of_the_arts_EVTOPT00227"		#Bellini3
+		name = "patronage_of_the_arts_EVTOPT00227"		#Botticelli3
 		add_treasury = -100
 	}
 }
@@ -350,5 +343,137 @@ country_event = {
 		add_dip_power = 40
 		add_mil_power = 50
 		add_prestige = 25
+	}
+}
+
+################################
+#1500-1550                     #
+################################
+namespace = patronageoftheartsrenaissance
+country_event = {
+	id = patronageoftheartsrenaissance.1
+	title = "patronageoftheartsrenaissance_EVTTITLE00001"
+	desc = "patronageoftheartsrenaissanceEVTDESC00001"
+	picture = ARTPATRONAGE10009_eventPicture
+	is_triggered_only = yes
+	option = {
+		#option1:localrenaissancemannerist
+		name = "patronageoftheartsrenaissance_EVTOPT00001"		#invest in Local art (Dutch)
+		hidden_effect = {
+			country_event = {
+				id = patronageofthearts_renaissanceoption.1
+				days = 2
+			}
+		}
+	}
+	option = {
+		#option2:italianrenaissancemannerist
+		name = "patronageoftheartsrenaissance_EVTOPT00002"
+		hidden_effect = {
+			country_event = {
+				id = patronageofthearts_renaissanceoption.2
+				days = 2
+			}
+		}
+	}
+	option = {
+		#option3:abroadrenaissancemannerist 
+		name = "patronageoftheartsrenaissance_EVTOPT00003"
+		hidden_effect = {
+			country_event = {
+				id = patronageofthearts_renaissanceoption.3
+				days = 2
+			}
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronageoftheartsrenaissance_EVTOPT00004"
+		add_treasury = 10
+		add_prestige = -15
+	}
+}
+
+country_event = {
+	#invest Local art
+	id = patronageofthearts_renaissanceoption.1
+	title = "patronageoftheartsrenaissance_EVTTITLE00011"
+	desc = "patronageoftheartsrenaissance_EVTDESC00011"
+	picture = ARTPATRONAGE10010_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00011"		#Bosch
+		add_treasury = -80
+		add_prestige = 8
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.11
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00012"		#Brueghel
+		add_treasury = -120
+		add_prestige = 12
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.12
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00013"		#Dürer
+		add_treasury = -150
+		add_prestige = 15
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.13
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	#invest italian art
+	id = patronageofthearts_renaissanceoption.2
+	title = "patronageoftheartsrenaissance_EVTTITLE00021"
+	desc = "patronageoftheartsrenaissance_EVTDESC00021"
+	picture = ARTPATRONAGE10011_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00021"		#Da Vinci
+		add_treasury = -200
+		add_prestige = 25
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.21
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00022"		#Raphael
+		add_treasury = -175
+		add_prestige = 17
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.22
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsrenaissance_EVTOPT00023"		#Michelangelo
+		add_treasury = -150
+		add_prestige = 15
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsrenaissance.23
+				days = 2
+			}
+		}
 	}
 }
