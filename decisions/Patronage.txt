@@ -35,12 +35,76 @@ country_decisions = {
 			has_mil_advisor = yes
 			has_adm_advisor = yes
 			stability = 1
-			years_of_income = 8
+			years_of_income = 2
 
 		}
 		effect = {
 			country_event = {
 				id = patronageoftheartsrenaissance.1
+			 } 
+		}
+	}
+}
+country_decisions = {
+	patronage_of_the_arts_1_1550s = {
+		potential = {
+			OR = {	
+				culture_group = germanic
+				culture_group = latin
+				culture_group = french
+				culture_group = iberian
+			}
+		}
+		allow = {
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+			has_adm_advisor = yes
+			stability = 2
+			years_of_income = 4
+			prestige = 25
+			power_projection = 10
+			dip = 2
+			adm_power = 200
+			dip_power = 200
+			mil_power = 200
+
+		}
+		effect = {
+			country_event = {
+				id = patronageoftheartsmannerism.1
+			 } 
+		}
+	}
+}
+country_decisions = {
+	patronage_of_the_arts_1_1590s = {
+		potential = {
+			OR = {	
+				culture_group = germanic
+				culture_group = latin
+				culture_group = french
+				culture_group = iberian
+			}
+		}
+		allow = {
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+			has_adm_advisor = yes
+			stability = 2
+			years_of_income = 6
+			prestige = 35
+			power_projection = 20
+			adm = 2
+			dip = 2
+			mil = 1
+			adm_power = 400
+			dip_power = 400
+			mil_power = 400
+
+		}
+		effect = {
+			country_event = {
+				id = patronageoftheartsbaroque.1
 			 } 
 		}
 	}
