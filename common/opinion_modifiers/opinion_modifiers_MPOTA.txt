@@ -1,0 +1,6 @@
+invested_in_cultural_heritage_of_region  = {
+	opinion = 10
+}
+invested_a_bit_in_cultural_heritage_of_region  = {
+	opinion = 5
+}
