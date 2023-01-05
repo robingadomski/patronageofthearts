@@ -215,7 +215,6 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				culture_group = germanic
 				OR = {
 					ruler_culture = dutch
 					ruler_culture = flemish
@@ -245,7 +244,6 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				culture_group = germanic
 				OR = {
 					ruler_culture = dutch
 					ruler_culture = flemish
@@ -264,7 +262,7 @@ country_event = {
 }
 
 country_event = {
-	#JANVANEYCK
+	#DIRKBOUTS
 	id = patronage_of_the_arts.23
 	title = "patronage_of_the_arts_EVTTITLE00123"
 	desc = "patronage_of_the_arts_EVTDESC00123"
@@ -295,23 +293,6 @@ country_event = {
 			type = 25_permanent_power_projection
 			amount = 1
 		}
-		every_country = {
-			limit = {
-				culture_group = germanic
-				OR = {
-					ruler_culture = dutch
-					ruler_culture = flemish
-				}
-			}
-			add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-			reverse_add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_EVTOPT10123"		#Bouts3
@@ -324,23 +305,6 @@ country_event = {
 		add_power_projection = {
 			type = 25_permanent_power_projection
 			amount = 2
-		}
-		every_country = {
-			limit = {
-				culture_group = germanic
-				OR = {
-					ruler_culture = dutch
-					ruler_culture = flemish
-				}
-			}
-			add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-			reverse_add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
 		}
 	}
 }
@@ -366,7 +330,6 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				culture_group = germanic
 				OR = {
 					ruler_culture = dutch
 					ruler_culture = flemish
@@ -396,7 +359,10 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				culture_group = germanic
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
 			}
 			add_opinion = {
 				who = PREV
@@ -405,23 +371,6 @@ country_event = {
 			reverse_add_opinion = {
 				who = PREV
 				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-			every_country = {
-				limit = {
-					culture_group = germanic
-					OR = {
-						ruler_culture = dutch
-						ruler_culture = flemish
-					}
-				}
-				add_opinion = {
-					who = PREV
-					modifier = invested_a_bit_in_cultural_heritage_of_region
-				}
-				reverse_add_opinion = {
-					who = PREV
-					modifier = invested_a_bit_in_cultural_heritage_of_region
-				}
 			}
 		}
 	}
@@ -439,8 +388,10 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				primary_culture = dutch
-				primary_culture = flemish
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
 			}
 			add_opinion = {
 				who = PREV
@@ -449,23 +400,6 @@ country_event = {
 			reverse_add_opinion = {
 				who = PREV
 				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-			every_country = {
-				limit = {
-					culture_group = germanic
-					OR = {
-						ruler_culture = dutch
-						ruler_culture = flemish
-					}
-				}
-				add_opinion = {
-					who = PREV
-					modifier = invested_a_bit_in_cultural_heritage_of_region
-				}
-				reverse_add_opinion = {
-					who = PREV
-					modifier = invested_a_bit_in_cultural_heritage_of_region
-				}
 			}
 		}
 	}
@@ -568,14 +502,14 @@ country_event = {
 			limit = {
 				culture_group = latin
 			}
-			add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-			reverse_add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
+		}
+		add_opinion = {
+			who = PREV
+			modifier = invested_a_bit_in_cultural_heritage_of_region
+		}
+		reverse_add_opinion = {
+			who = PREV
+			modifier = invested_a_bit_in_cultural_heritage_of_region
 		}
 	}
 	option = {
@@ -594,14 +528,14 @@ country_event = {
 			limit = {
 				culture_group = latin
 			}
-			add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-			reverse_add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
+		}
+		add_opinion = {
+			who = PREV
+			modifier = invested_a_bit_in_cultural_heritage_of_region
+		}
+		reverse_add_opinion = {
+			who = PREV
+			modifier = invested_a_bit_in_cultural_heritage_of_region
 		}
 	}
 }
@@ -642,14 +576,14 @@ country_event = {
 			limit = {
 				culture_group = latin
 			}
-			add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-			reverse_add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
+		}
+		add_opinion = {
+			who = PREV
+			modifier = invested_a_bit_in_cultural_heritage_of_region
+		}
+		reverse_add_opinion = {
+			who = PREV
+			modifier = invested_a_bit_in_cultural_heritage_of_region
 		}
 	}
 	option = {
@@ -660,6 +594,10 @@ country_event = {
 		add_prestige = 20
 		add_legitimacy = 10
 		add_papal_influence = 10
+		country_event = {
+			id = patronage_of_the_arts_alberti.1
+			days = 7
+		}
 		add_power_projection = {
 			type = 25_permanent_power_projection
 			amount = 3
@@ -668,20 +606,14 @@ country_event = {
 			limit = {
 				culture_group = latin
 			}
-			add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
-			reverse_add_opinion = {
-				who = PREV
-				modifier = invested_a_bit_in_cultural_heritage_of_region
-			}
 		}
-		hidden_effect = {
-			country_event = {
-				id = patronage_of_the_arts_alberti.1
-				days = 7
-			}
+		add_opinion = {
+			who = PREV
+			modifier = invested_a_bit_in_cultural_heritage_of_region
+		}
+		reverse_add_opinion = {
+			who = PREV
+			modifier = invested_a_bit_in_cultural_heritage_of_region
 		}
 	}
 }
@@ -1517,11 +1449,10 @@ country_event = {
 			}
 		}
 		country_event = {
-				id = patronage_of_themichelangelochurch.9
-				days = 2
-			}
+			id = patronage_of_themichelangelochurch.9
+			days = 2
 		}
-	
+	}
 	option = {
 		name = "patronageoftheartsrenaissance_EVTOPT00233"		#Michelangelo3
 		add_treasury = -3000
@@ -2919,6 +2850,48 @@ country_event = {
 			reverse_add_opinion = {
 				who = PREV
 				modifier = invested_in_cultural_heritage_of_region
+			}
+		}
+	}
+}
+
+country_event = {
+	#ItalianBaroque
+	id = patronageoftheartsbaroque.4
+	title = "patronageoftheartsbaroque_EVTTITLE00031"
+	desc = "patronageoftheartsbaroque_EVTDESC00031"
+	picture = ARTPATRONAGE10036_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsbaroque_EVTOPT00031"		#Outside1
+		add_treasury = -300
+		add_prestige = 15
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsbaroque.41
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsbaroque_EVTOPT00032"		#Outside2
+		add_treasury = -200
+		add_prestige = 10
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsbaroque.42
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsbaroque_EVTOPT00033"		#Outside3
+		add_treasury = -700
+		add_prestige = 12
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsbaroque.43
+				days = 2
 			}
 		}
 	}
