@@ -502,14 +502,14 @@ country_event = {
 			limit = {
 				culture_group = latin
 			}
-		}
-		add_opinion = {
-			who = PREV
-			modifier = invested_a_bit_in_cultural_heritage_of_region
-		}
-		reverse_add_opinion = {
-			who = PREV
-			modifier = invested_a_bit_in_cultural_heritage_of_region
+			add_opinion = {
+				who = PREV
+				modifier = invested_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_in_cultural_heritage_of_region
+			}
 		}
 	}
 	option = {
@@ -528,14 +528,14 @@ country_event = {
 			limit = {
 				culture_group = latin
 			}
-		}
-		add_opinion = {
-			who = PREV
-			modifier = invested_a_bit_in_cultural_heritage_of_region
-		}
-		reverse_add_opinion = {
-			who = PREV
-			modifier = invested_a_bit_in_cultural_heritage_of_region
+							add_opinion = {
+					who = PREV
+					modifier = invested_in_cultural_heritage_of_region
+				}
+				reverse_add_opinion = {
+					who = PREV
+					modifier = invested_in_cultural_heritage_of_region
+				}
 		}
 	}
 }
@@ -576,14 +576,14 @@ country_event = {
 			limit = {
 				culture_group = latin
 			}
-		}
-		add_opinion = {
-			who = PREV
-			modifier = invested_a_bit_in_cultural_heritage_of_region
-		}
-		reverse_add_opinion = {
-			who = PREV
-			modifier = invested_a_bit_in_cultural_heritage_of_region
+			add_opinion = {
+				who = PREV
+				modifier = invested_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_in_cultural_heritage_of_region
+			}
 		}
 	}
 	option = {
@@ -606,7 +606,7 @@ country_event = {
 			limit = {
 				culture_group = latin
 			}
-		}
+		
 		add_opinion = {
 			who = PREV
 			modifier = invested_a_bit_in_cultural_heritage_of_region
@@ -614,10 +614,11 @@ country_event = {
 		reverse_add_opinion = {
 			who = PREV
 			modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
 		}
 	}
 }
-
+namespace = patronage_of_the_arts_alberti
 country_event = {
 	id = patronage_of_the_arts_alberti.1
 	title = "patronage_of_the_arts_alberti_TITLE0001"
@@ -894,7 +895,7 @@ country_event = {
 		add_prestige = -15
 	}
 }
-
+namespace = patronageofthearts_renaissanceoption
 country_event = {
 	#invest Local art
 	id = patronageofthearts_renaissanceoption.1
