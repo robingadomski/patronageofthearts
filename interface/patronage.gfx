@@ -426,3 +426,73 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART017_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART017_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART018_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART018_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART019_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART019_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART020_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART020_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART021_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART021_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART022_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART022_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART023_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART023_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART024_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART024_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART025_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART025_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART026_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART026_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
