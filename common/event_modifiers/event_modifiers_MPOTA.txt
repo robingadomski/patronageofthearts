@@ -1,0 +1,9 @@
+alberti_teaches_country = {
+	idea_cost = -0.1
+	technology_cost = -0.05
+}
+alberti_renovates_residency = {
+	diplomatic_annexation_cost = -0.1
+	diplomatic_reputation = 2
+	country_diplomatic_power = 1
+}
