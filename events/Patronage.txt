@@ -272,6 +272,96 @@ country_event = {
 			}
 		}
 	}
+	option = {
+		name = "patronage_of_the_arts_EVTOPTvaneyck00124"		#Van Eyck4
+		country_event = {
+			id = patronage_of_the_arts_vaneyck.4
+			days = 14
+		}
+		add_treasury = -175
+		add_dip_power = 33
+		add_mil_power = 33
+		add_adm_power = 33
+		add_prestige = 7
+		add_legitimacy = 7
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_EVTOPTvaneyck00125"		#Van Eyck5
+		country_event = {
+			id = patronage_of_the_arts_vaneyck.5
+			days = 14
+		}
+		add_treasury = -175
+		add_dip_power = 33
+		add_mil_power = 33
+		add_adm_power = 33
+		add_prestige = 7
+		add_legitimacy = 7
+		add_papal_influence = 10
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtonetherlandish"
+		add_treasury = -5
+		country_event = {
+			id = patronage_of_the_arts.2
+			days = 2
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoearlyrenaissance"
+		add_treasury = -10
+		country_event = {
+			id = patronage_of_the_arts.1
+			days = 2
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronage_of_the_arts_exit"
+		add_treasury = 5
+		add_prestige = -5
+	}
 }
 
 namespace = patronage_of_the_arts_vaneyck
@@ -319,6 +409,36 @@ country_event = {
 			add_base_tax = 1
 			add_base_production = 2
 			add_base_manpower = 1
+		}
+	}
+}
+country_event = {
+	#Vaneyck4
+	id = patronage_of_the_arts_vaneyck.4
+	title = "patronage_of_the_arts_vaneyckTITLE4"
+	desc = "patronage_of_the_arts_vaneyckDESC4"
+	picture = ARTPATRONAGEART071_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_vaneyck_OPT4"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#Vaneyck5
+	id = patronage_of_the_arts_vaneyck.5
+	title = "patronage_of_the_arts_vaneyckTITLE5"
+	desc = "patronage_of_the_arts_vaneyckDESC5"
+	picture = ARTPATRONAGEART072_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_vaneyck_OPT5"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
 		}
 	}
 }
@@ -430,6 +550,28 @@ country_event = {
 			}
 		}
 	}
+	option = {
+		name = "patronage_of_the_arts_backtonetherlandish"
+		add_treasury = -5
+		country_event = {
+			id = patronage_of_the_arts.2
+			days = 2
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoearlyrenaissance"
+		add_treasury = -10
+		country_event = {
+			id = patronage_of_the_arts.1
+			days = 2
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronage_of_the_arts_exit"
+		add_treasury = 5
+		add_prestige = -5
+	}
 }
 
 namespace = patronage_of_the_arts_vanderweyden
@@ -539,6 +681,28 @@ country_event = {
 			type = 25_permanent_power_projection
 			amount = 2
 		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtonetherlandish"
+		add_treasury = -5
+		country_event = {
+			id = patronage_of_the_arts.2
+			days = 2
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoearlyrenaissance"
+		add_treasury = -10
+		country_event = {
+			id = patronage_of_the_arts.1
+			days = 2
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronage_of_the_arts_exit"
+		add_treasury = 5
+		add_prestige = -5
 	}
 }
 
@@ -662,6 +826,28 @@ country_event = {
 				modifier = invested_a_bit_in_cultural_heritage_of_region
 			}
 		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoitalianearlyrenaissance"
+		add_treasury = -5
+		country_event = {
+			id = patronage_of_the_arts.3
+			days = 2
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoearlyrenaissance"
+		add_treasury = -10
+		country_event = {
+			id = patronage_of_the_arts.1
+			days = 2
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronage_of_the_arts_exit"
+		add_treasury = 5
+		add_prestige = -5
 	}
 }
 
@@ -798,6 +984,28 @@ country_event = {
 				modifier = invested_in_cultural_heritage_of_region
 			}
 		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoitalianearlyrenaissance"
+		add_treasury = -5
+		country_event = {
+			id = patronage_of_the_arts.3
+			days = 2
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoearlyrenaissance"
+		add_treasury = -10
+		country_event = {
+			id = patronage_of_the_arts.1
+			days = 2
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronage_of_the_arts_exit"
+		add_treasury = 5
+		add_prestige = -5
 	}
 }
 
@@ -941,6 +1149,28 @@ country_event = {
 				modifier = invested_a_bit_in_cultural_heritage_of_region
 			}
 		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoitalianearlyrenaissance"
+		add_treasury = -5
+		country_event = {
+			id = patronage_of_the_arts.3
+			days = 2
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoearlyrenaissance"
+		add_treasury = -10
+		country_event = {
+			id = patronage_of_the_arts.1
+			days = 2
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronage_of_the_arts_exit"
+		add_treasury = 5
+		add_prestige = -10
 	}
 }
 
@@ -2366,7 +2596,7 @@ country_event = {
 			modifier = mam_poem_recieved
 		}
 		random_owned_province = {
-			add_building = temple
+			add_building = cathedral
 		}
 	}
 }
