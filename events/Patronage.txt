@@ -2782,9 +2782,9 @@ country_event = {
 }
 
   
-############################
-#1550s                     #
-############################
+########################################################################################################################################################################
+#1550s                     																																			   #
+########################################################################################################################################################################
 namespace = patronageoftheartsmannerism
 country_event = {
 	id = patronageoftheartsmannerism.1
@@ -2883,6 +2883,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00121"		#Titian1
+		country_event = {
+			id = patronage_of_the_arts_titian.1
+			days = 14
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -2903,6 +2907,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00122"		#Titian2
+		country_event = {
+			id = patronage_of_the_arts_titian.2
+			days = 14
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -2923,6 +2931,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00123"		#Titian3
+		country_event = {
+			id = patronage_of_the_arts_titian.3
+			days = 14
+		}
 		add_treasury = -500
 		add_dip_power = 150
 		add_mil_power = 125
@@ -2946,6 +2958,55 @@ country_event = {
 	}
 }
 
+namespace = patronage_of_the_arts_titian
+country_event = {
+	#titian1
+	id = patronage_of_the_arts_titian.1
+	title = "patronage_of_the_arts_titianTITLE1"
+	desc = "patronage_of_the_arts_titianDESC1"
+	picture = ARTPATRONAGEART053_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_titian_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#titian2
+	id = patronage_of_the_arts_titian.2
+	title = "patronage_of_the_arts_titianTITLE2"
+	desc = "patronage_of_the_arts_titianDESC2"
+	picture = ARTPATRONAGEART054_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_titian_OPT2"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#titian3
+	id = patronage_of_the_arts_titian.3
+	title = "patronage_of_the_arts_titianTITLE3"
+	desc = "patronage_of_the_arts_titianDESC3"
+	picture = ARTPATRONAGEART055_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_titian_OPT3"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 2
+			add_base_manpower = 1
+		}
+	}
+}
+
+
 country_event = {
 	##Tintoretto
 	id = patronageoftheartsmannerism.22
@@ -2955,6 +3016,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00221"		#Tintoretto1
+		country_event = {
+			id = patronage_of_the_arts_tintoretto.1
+			days = 14
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -2975,6 +3040,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00222"		#Tintoretto2
+		country_event = {
+			id = patronage_of_the_arts_tintoretto.2
+			days = 14
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -2995,6 +3064,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00223"		#Tintoretto3
+		country_event = {
+			id = patronage_of_the_arts_tintoretto.3
+			days = 14
+		}
 		add_treasury = -500
 		add_dip_power = 150
 		add_mil_power = 125
@@ -3018,6 +3091,54 @@ country_event = {
 	}
 }
 
+namespace = patronage_of_the_arts_tintoretto
+country_event = {
+	#tintoretto1
+	id = patronage_of_the_arts_tintoretto.1
+	title = "patronage_of_the_arts_tintorettoTITLE1"
+	desc = "patronage_of_the_arts_tintorettoDESC1"
+	picture = ARTPATRONAGEART056_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_tintoretto_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#tintoretto2
+	id = patronage_of_the_arts_tintoretto.2
+	title = "patronage_of_the_arts_tintorettoTITLE2"
+	desc = "patronage_of_the_arts_tintorettoDESC2"
+	picture = ARTPATRONAGEART057_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_tintoretto_OPT2"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#tintoretto3
+	id = patronage_of_the_arts_tintoretto.3
+	title = "patronage_of_the_arts_tintorettoTITLE3"
+	desc = "patronage_of_the_arts_tintorettoDESC3"
+	picture = ARTPATRONAGEART058_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_tintoretto_OPT3"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+	}
+}
+
 country_event = {
 	#Veronese
 	id = patronageoftheartsmannerism.23
@@ -3027,6 +3148,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00321"		#Veronese1
+		country_event = {
+			id = patronage_of_the_arts_veronese.1
+			days = 14
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -3047,6 +3172,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00322"		#Veronese2
+		country_event = {
+			id = patronage_of_the_arts_veronese.2
+			days = 14
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -3067,6 +3196,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00323"		#Veronese3
+		country_event = {
+			id = patronage_of_the_arts_veronese.3
+			days = 14
+		}
 		add_treasury = -500
 		add_dip_power = 150
 		add_mil_power = 125
@@ -3090,6 +3223,54 @@ country_event = {
 	}
 }
 
+namespace = patronage_of_the_arts_veronese
+country_event = {
+	#veronese1
+	id = patronage_of_the_arts_veronese.1
+	title = "patronage_of_the_arts_veroneseTITLE1"
+	desc = "patronage_of_the_arts_veroneseDESC1"
+	picture = ARTPATRONAGEART059_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_veronese_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#veronese2
+	id = patronage_of_the_arts_veronese.2
+	title = "patronage_of_the_arts_veroneseTITLE2"
+	desc = "patronage_of_the_arts_veroneseDESC2"
+	picture = ARTPATRONAGEART060_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_veronese_OPT2"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#veronese3
+	id = patronage_of_the_arts_veronese.3
+	title = "patronage_of_the_arts_veroneseTITLE3"
+	desc = "patronage_of_the_arts_veroneseDESC3"
+	picture = ARTPATRONAGEART061_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_veronese_OPT3"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+	}
+}
+
 country_event = {
 	#mannerism
 	id = patronageoftheartsmannerism.3
@@ -3099,6 +3280,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00041"		#ElGreco
+		
 		add_treasury = -300
 		add_prestige = 15
 		hidden_effect = {
@@ -3141,6 +3323,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00141"		#ElGreco1
+		country_event = {
+			id = patronage_of_the_arts_elgreco.1
+			days = 14
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -3161,6 +3347,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00142"		#ElGreco2
+		country_event = {
+			id = patronage_of_the_arts_elgreco.2
+			days = 14
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -3181,6 +3371,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00143"		#ElGreco3
+		country_event = {
+			id = patronage_of_the_arts_elgreco.3
+			days = 14
+		}
 		add_treasury = -500
 		add_dip_power = 150
 		add_mil_power = 125
@@ -3204,6 +3398,55 @@ country_event = {
 	}
 }
 
+namespace = patronage_of_the_arts_elgreco
+country_event = {
+	#elgreco1
+	id = patronage_of_the_arts_elgreco.1
+	title = "patronage_of_the_arts_elgrecoTITLE1"
+	desc = "patronage_of_the_arts_elgrecoDESC1"
+	picture = ARTPATRONAGEART062_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_elgreco_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#elgreco2
+	id = patronage_of_the_arts_elgreco.2
+	title = "patronage_of_the_arts_elgrecoTITLE2"
+	desc = "patronage_of_the_arts_elgrecoDESC2"
+	picture = ARTPATRONAGEART063_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_elgreco_OPT2"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#elgreco3
+	id = patronage_of_the_arts_elgreco.3
+	title = "patronage_of_the_arts_elgrecoTITLE3"
+	desc = "patronage_of_the_arts_elgrecoDESC3"
+	picture = ARTPATRONAGEART064_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_elgreco_OPT3"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+	}
+}
+
+
 country_event = {
 	#Wtewael
 	id = patronageoftheartsmannerism.32
@@ -3213,6 +3456,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00241"		#Wtewael
+		country_event = {
+			id = patronage_of_the_arts_wtewael.1
+			days = 14
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -3233,6 +3480,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00242"		#Wtewael2
+		country_event = {
+			id = patronage_of_the_arts_wtewael.2
+			days = 14
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -3253,6 +3504,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00243"		#Wtewael3
+		country_event = {
+			id = patronage_of_the_arts_wtewael.3
+			days = 14
+		}
 		add_treasury = -500
 		add_dip_power = 150
 		add_mil_power = 125
@@ -3276,6 +3531,55 @@ country_event = {
 	}
 }
 
+namespace = patronage_of_the_arts_wtewael
+country_event = {
+	#wtewael1
+	id = patronage_of_the_arts_wtewael.1
+	title = "patronage_of_the_arts_wtewaelTITLE1"
+	desc = "patronage_of_the_arts_wtewaelDESC1"
+	picture = ARTPATRONAGEART065_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_wtewael_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#wtewael2
+	id = patronage_of_the_arts_wtewael.2
+	title = "patronage_of_the_arts_wtewaelTITLE2"
+	desc = "patronage_of_the_arts_wtewaelDESC2"
+	picture = ARTPATRONAGEART066_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_wtewael_OPT2"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#wtewael3
+	id = patronage_of_the_arts_wtewael.3
+	title = "patronage_of_the_arts_wtewaelTITLE3"
+	desc = "patronage_of_the_arts_wtewaelDESC3"
+	picture = ARTPATRONAGEART067_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_wtewael_OPT3"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+	}
+}
+
+
 country_event = {
 	#Cranach the Younger
 	id = patronageoftheartsmannerism.33
@@ -3285,6 +3589,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00341"		#Cranach1
+		country_event = {
+			id = patronage_of_the_arts_cranachyounger.1
+			days = 14
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -3305,6 +3613,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00342"		#Cranach2
+		country_event = {
+			id = patronage_of_the_arts_cranachyounger.2
+			days = 14
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -3325,6 +3637,10 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00343"		#Cranach3
+		country_event = {
+			id = patronage_of_the_arts_cranachyounger.3
+			days = 14
+		}
 		add_treasury = -500
 		add_dip_power = 150
 		add_mil_power = 125
@@ -3348,9 +3664,57 @@ country_event = {
 	}
 }
 
-##########################
-#1590s                   #
-##########################
+namespace = patronage_of_the_arts_cranachyounger
+country_event = {
+	#cranachyounger1
+	id = patronage_of_the_arts_cranachyounger.1
+	title = "patronage_of_the_arts_cranachyoungerTITLE1"
+	desc = "patronage_of_the_arts_cranachyoungerDESC1"
+	picture = ARTPATRONAGEART068_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_cranachyounger_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#cranachyounger2
+	id = patronage_of_the_arts_cranachyounger.2
+	title = "patronage_of_the_arts_cranachyoungerTITLE2"
+	desc = "patronage_of_the_arts_cranachyoungerDESC2"
+	picture = ARTPATRONAGEART069_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_cranachyounger_OPT2"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+	}
+}
+country_event = {
+	#cranachyounger3
+	id = patronage_of_the_arts_cranachyounger.3
+	title = "patronage_of_the_arts_cranachyoungerTITLE3"
+	desc = "patronage_of_the_arts_cranachyoungerDESC3"
+	picture = ARTPATRONAGEART070_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_cranachyounger_OPT3"
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+	}
+}
+
+############################################################################################################################################################
+#1590s                   																																   #
+############################################################################################################################################################
 namespace = patronageoftheartsbaroque
 country_event = {
 	id = patronageoftheartsbaroque.1
