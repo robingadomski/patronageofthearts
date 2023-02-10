@@ -4559,3 +4559,246 @@ country_event = {
 		}
 	}
 }
+
+################################################################################################################################################################
+#medieval 																																					   #
+################################################################################################################################################################
+
+namespace = patronageoftheartsmedieval
+country_event = {
+	id = patronageoftheartsmedieval.1
+	title = "patronageoftheartsmedieval_EVTTITLE00001"	#Patronage of the Renaissance Arts.
+	desc = "patronageoftheartsmedieval_EVTDESC00001"	#We should invest into the renaissance art...
+	picture = ARTPATRONAGE10047_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		is_year = 1200
+		NOT = {
+			is_year = 1890
+		}
+		OR = {
+			culture_group = germanic
+			culture_group = latin
+			culture_group = french
+			culture_group = iberian
+		}
+	}
+	option = {
+		#goes to option ID 2 (OPTION1)
+		name = "patronageoftheartsmedieval_EVTOPT00001"		#invest in Italian medieval art
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedieval.2
+				days = 2
+			}
+		}
+	}
+	option = {
+		#goes to option ID 3 (OPTION2) #invest in Italian art 	#invest in medieval literature
+		name = "patronageoftheartsmedieval_EVTOPT00002"
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedieval.3
+				days = 2
+			}
+		}
+	}
+	option = {
+		#goes to option ID 3 (OPTION3) #invest in Italian art 	#invest in medieval romanesque manuscripts
+		name = "patronageoftheartsmedieval_EVTOPT00003"
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedieval.4
+				days = 2
+			}
+		}
+	}
+	option = {
+		#exit  (OPTION4) 	
+		name = "patronageoftheartsmedieval_EVTOPT00004"
+		add_treasury = 5
+		add_prestige = -10
+	}
+}
+country_event = {
+	#invest italian
+	id = patronageoftheartsmedieval.2
+	title = "patronageoftheartsmedieval_EVTTITLE00002"
+	desc = "patronageoftheartsmedieval_EVTDESC00002"
+	picture = ARTPATRONAGE10045_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedieval_EVTOPT00021"		#Cimabue
+		add_treasury = -10
+		add_prestige = 2
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedieval.21
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedieval_EVTOPT00022"		#Giotto
+		add_treasury = -10
+		add_prestige = 2
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedieval.22
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedieval_EVTOPT00023"		#Duccio
+		add_treasury = -10
+		add_prestige = 2
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedieval.23
+				days = 2
+			}
+		}
+	}
+}
+country_event = {
+	#invest literature
+	id = patronageoftheartsmedieval.3
+	title = "patronageoftheartsmedieval_EVTTITLE00003"
+	desc = "patronageoftheartsmedieval_EVTDESC00003"
+	picture = ARTPATRONAGE10046_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedieval_EVTOPT00031"		#Divinacommedia
+		add_treasury = -10
+		add_prestige = 2
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedievaldivinacommedia.1
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedieval_EVTOPT00032"		#Canterbury tales
+		add_treasury = -10
+		add_prestige = 2
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedievalcanterburytales.1
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedieval_EVTOPT00033"		#Decamerone
+		add_treasury = -10
+		add_prestige = 2
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedievaldecamerone.1
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedieval_EVTOPT00034"		#Petrarcha
+		add_treasury = -10
+		add_prestige = 2
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedievalilcanzoniere.1
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedieval_EVTOPT00035"		#Vandenvosreynaerde
+		add_treasury = -10
+		add_prestige = 2
+		hidden_effect = {
+			country_event = {
+				id = patronageoftheartsmedievalvandenvosreynaerde.1
+				days = 2
+			}
+		}
+	}
+}
+namespace = patronageoftheartsmedievaldivinacommedia
+country_event = {
+	#divinacommedia1
+	id = patronageoftheartsmedievaldivinacommedia.1
+	title = "patronageoftheartsmedievaldivinacommediaTITLE1"
+	desc = "patronageoftheartsmedievaldivinacommediaDESC1"
+	picture = ARTPATRONAGEART073_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievaldivinacommedia_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+		}
+	}
+}
+namespace = patronageoftheartsmedievalcanterburytales
+country_event = {
+	#canterburytales1
+	id = patronageoftheartsmedievalcanterburytales.1
+	title = "patronageoftheartsmedievalcanterburytalesTITLE1"
+	desc = "patronageoftheartsmedievalcanterburytalesDESC1"
+	picture = ARTPATRONAGEART074_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalcanterburytales_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+		}
+	}
+}
+namespace = patronageoftheartsmedievaldecamerone
+country_event = {
+	#decamerone1
+	id = patronageoftheartsmedievaldecamerone.1
+	title = "patronageoftheartsmedievaldecameroneTITLE1"
+	desc = "patronageoftheartsmedievaldecameroneDESC1"
+	picture = ARTPATRONAGEART075_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievaldecamerone_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+		}
+	}
+}
+namespace = patronageoftheartsmedievalilcanzoniere
+country_event = {
+	#ilcanzoniere1
+	id = patronageoftheartsmedievalilcanzoniere.1
+	title = "patronageoftheartsmedievalilcanzoniereTITLE1"
+	desc = "patronageoftheartsmedievalilcanzoniereDESC1"
+	picture = ARTPATRONAGEART076_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalilcanzoniere_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+		}
+	}
+}
+namespace = patronageoftheartsmedievalvandenvosreynaerde
+country_event = {
+	#vandenvosreynaerde1
+	id = patronageoftheartsmedievalvandenvosreynaerde.1
+	title = "patronageoftheartsmedievalvandenvosreynaerdeTITLE1"
+	desc = "patronageoftheartsmedievalvandenvosreynaerdeDESC1"
+	picture = ARTPATRONAGEART077_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT1"
+		random_owned_province = {
+			add_base_tax = 1
+		}
+	}
+}
+
+
+

@@ -1,7 +1,7 @@
 country_decisions = {
 	patronage_of_the_arts_1_1450s = {
 		potential = {
-			OR = { 
+			OR = {
 				culture_group = germanic
 				culture_group = latin
 				culture_group = french
@@ -20,10 +20,11 @@ country_decisions = {
 		}
 	}
 }
+
 country_decisions = {
 	patronage_of_the_arts_1_1500s = {
 		potential = {
-			OR = {	
+			OR = {
 				culture_group = germanic
 				culture_group = latin
 				culture_group = french
@@ -36,19 +37,19 @@ country_decisions = {
 			has_adm_advisor = yes
 			stability = 1
 			years_of_income = 2
-
 		}
 		effect = {
 			country_event = {
 				id = patronageoftheartsrenaissance.1
-			 } 
+			}
 		}
 	}
 }
+
 country_decisions = {
 	patronage_of_the_arts_1_1550s = {
 		potential = {
-			OR = {	
+			OR = {
 				culture_group = germanic
 				culture_group = latin
 				culture_group = french
@@ -67,19 +68,19 @@ country_decisions = {
 			adm_power = 200
 			dip_power = 200
 			mil_power = 200
-
 		}
 		effect = {
 			country_event = {
 				id = patronageoftheartsmannerism.1
-			 } 
+			}
 		}
 	}
 }
+
 country_decisions = {
 	patronage_of_the_arts_1_1590s = {
 		potential = {
-			OR = {	
+			OR = {
 				culture_group = germanic
 				culture_group = latin
 				culture_group = french
@@ -100,12 +101,44 @@ country_decisions = {
 			adm_power = 400
 			dip_power = 400
 			mil_power = 400
-
 		}
 		effect = {
 			country_event = {
 				id = patronageoftheartsbaroque.1
-			 } 
+			}
+		}
+	}
+}
+
+country_decisions = {
+	patronage_of_the_arts_1_1200s = {
+		potential = {
+			OR = {
+				culture_group = germanic
+				culture_group = latin
+				culture_group = french
+				culture_group = iberian
+			}
+		}
+		allow = {
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+			has_adm_advisor = yes
+			stability = 3
+			years_of_income = 10
+			prestige = 50
+			power_projection = 20
+			adm = 1
+			dip = 1
+			mil = 1
+			adm_power = 250
+			dip_power = 250
+			mil_power = 250
+		}
+		effect = {
+			country_event = {
+				id = patronageoftheartsmedieval.1
+			}
 		}
 	}
 }
