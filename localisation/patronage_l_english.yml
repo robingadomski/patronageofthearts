@@ -486,3 +486,8 @@
   patronage_of_the_arts_backtoitalianearlyrenaissance:0 "We should choose a different Italian painter"
   patronage_of_the_arts_backtoearlyrenaissance:0 "We should invest in a different region"
   patronage_of_the_arts_exit:0 "We shouldn't invest in art. (Exit Menu)"
+
+  patronage_of_the_arts_enlargeDESC1:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" #512x850
+  patronage_of_the_arts_enlargeDESC2:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"   #512x600
+  patronage_of_the_arts_enlarge_OPT1:0 "Wonderful!"
+  patronage_of_the_arts_enlarge:0 "Enlarge This Painting"

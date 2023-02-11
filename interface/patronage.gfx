@@ -874,3 +874,38 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE001_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE001_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE002_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE002_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE003_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE003_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE004_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE004_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE005_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE005_eventPicture.dds"
+		alwaystransparent = no
+	}
+}

@@ -191,6 +191,9 @@ country_event = {
 	option = {
 		name = "patronage_of_the_arts_EVTOPT00122"		#Van Eyck1
 		add_treasury = -100
+		random_owned_province = {
+			add_base_tax = 1
+		}
 		country_event = {
 			id = patronage_of_the_arts_vaneyck.1
 			days = 14
@@ -210,6 +213,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_vaneyck.2
 			days = 14
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
 		}
 		add_treasury = -150
 		add_dip_power = 33
@@ -243,6 +250,11 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_vaneyck.3
 			days = 14
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 2
+			add_base_manpower = 1
 		}
 		add_treasury = -250
 		add_dip_power = 50
@@ -278,6 +290,10 @@ country_event = {
 			id = patronage_of_the_arts_vaneyck.4
 			days = 14
 		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
 		add_treasury = -175
 		add_dip_power = 33
 		add_mil_power = 33
@@ -311,6 +327,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_vaneyck.5
 			days = 14
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
 		}
 		add_treasury = -175
 		add_dip_power = 33
@@ -374,12 +394,18 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_vaneyck_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_vaneyck.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_vaneycklarge.1
 		}
 	}
 }
-
 country_event = {
 	#Vaneyck2
 	id = patronage_of_the_arts_vaneyck.2
@@ -389,9 +415,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_vaneyck_OPT2"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_vaneyck.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_vaneycklarge.2
 		}
 	}
 }
@@ -405,10 +437,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_vaneyck_OPT3"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 2
-			add_base_manpower = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_vaneyck.3
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_vaneycklarge.3
 		}
 	}
 }
@@ -417,13 +454,19 @@ country_event = {
 	id = patronage_of_the_arts_vaneyck.4
 	title = "patronage_of_the_arts_vaneyckTITLE4"
 	desc = "patronage_of_the_arts_vaneyckDESC4"
-	picture = ARTPATRONAGEART071_eventPicture
+	picture = ARTPATRONAGEART071_eventPicture  
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_vaneyck_OPT4"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_vaneyck.4
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_vaneycklarge.4
 		}
 	}
 }
@@ -436,13 +479,75 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_vaneyck_OPT5"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_vaneyck.5
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_vaneycklarge.5
 		}
 	}
 }
 
+namespace = patronage_of_the_arts_vaneycklarge
+country_event = {
+	#VaneyckLARGE1
+	id = patronage_of_the_arts_vaneycklarge.1
+	title = "patronage_of_the_arts_vaneyckTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE001_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_vaneyck_OPT1"
+	}
+}
+country_event = {
+	#VaneyckLARGE2
+	id = patronage_of_the_arts_vaneycklarge.2
+	title = "patronage_of_the_arts_vaneyckTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE002_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_vaneyck_OPT1"
+	}
+}
+country_event = {
+	#VaneyckLARGE3
+	id = patronage_of_the_arts_vaneycklarge.3
+	title = "patronage_of_the_arts_vaneyckTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE003_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_vaneyck_OPT1"
+	}
+}
+country_event = {
+	#VaneyckLARGE4
+	id = patronage_of_the_arts_vaneycklarge.4
+	title = "patronage_of_the_arts_vaneyckTITLE4"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE004_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_vaneyck_OPT1"
+	}
+}
+country_event = {
+	#VaneyckLARGE5
+	id = patronage_of_the_arts_vaneycklarge.5
+	title = "patronage_of_the_arts_vaneyckTITLE5"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE005_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_vaneyck_OPT1"
+	}
+}
 country_event = {
 	#ROGIERVANDERWEYDEN
 	id = patronage_of_the_arts.22
@@ -4630,7 +4735,7 @@ country_event = {
 	option = {
 		name = "patronageoftheartsmedieval_EVTOPT00021"		#Cimabue
 		add_treasury = -10
-		add_prestige = 2
+		add_prestige = 1
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsmedieval.21
@@ -4641,7 +4746,7 @@ country_event = {
 	option = {
 		name = "patronageoftheartsmedieval_EVTOPT00022"		#Giotto
 		add_treasury = -10
-		add_prestige = 2
+		add_prestige = 1
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsmedieval.22
@@ -4652,7 +4757,7 @@ country_event = {
 	option = {
 		name = "patronageoftheartsmedieval_EVTOPT00023"		#Duccio
 		add_treasury = -10
-		add_prestige = 2
+		add_prestige = 1
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsmedieval.23
@@ -4670,8 +4775,21 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmedieval_EVTOPT00031"		#Divinacommedia
-		add_treasury = -10
+		add_treasury = -40
 		add_prestige = 2
+		every_country = {
+			limit = {
+				culture_group = latin
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsmedievaldivinacommedia.1
@@ -4681,8 +4799,21 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmedieval_EVTOPT00032"		#Canterbury tales
-		add_treasury = -10
+		add_treasury = -30
 		add_prestige = 2
+		every_country = {
+			limit = {
+				culture_group = british
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsmedievalcanterburytales.1
@@ -4692,8 +4823,21 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmedieval_EVTOPT00033"		#Decamerone
-		add_treasury = -10
+		add_treasury = -35
 		add_prestige = 2
+		every_country = {
+			limit = {
+				culture_group = latin
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsmedievaldecamerone.1
@@ -4703,8 +4847,21 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmedieval_EVTOPT00034"		#Petrarcha
-		add_treasury = -10
+		add_treasury = -35
 		add_prestige = 2
+		every_country = {
+			limit = {
+				culture_group = latin
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsmedievalilcanzoniere.1
@@ -4714,8 +4871,21 @@ country_event = {
 	}
 	option = {
 		name = "patronageoftheartsmedieval_EVTOPT00035"		#Vandenvosreynaerde
-		add_treasury = -10
+		add_treasury = -25
 		add_prestige = 2
+		every_country = {
+			limit = {
+				culture_group = germanic
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
 		hidden_effect = {
 			country_event = {
 				id = patronageoftheartsmedievalvandenvosreynaerde.1
