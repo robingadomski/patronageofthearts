@@ -909,3 +909,89 @@ spriteTypes = {
 		alwaystransparent = no
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE006_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE006_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE007_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE007_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE008_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE008_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE009_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE009_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE010_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE010_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE011_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE011_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE012_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE012_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE013_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE013_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE014_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE014_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE015_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE015_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE016_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE016_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE017_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE017_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+
+
