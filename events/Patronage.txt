@@ -1408,7 +1408,7 @@ country_event = {
 	#botticelliLARGE3
 	id = patronage_of_the_arts_botticellilarge.3
 	title = "patronage_of_the_arts_botticelliTITLE3"
-	desc = "patronage_of_the_arts_enlargeDESC2"
+	desc = "patronage_of_the_arts_enlargeDESC1"
 	picture = ARTPATRONAGEARTLARGE017_eventPicture
 	is_triggered_only = yes
 	option = {
@@ -2783,8 +2783,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_durer_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_durer.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_durerlarge.1
 		}
 	}
 }
@@ -2798,9 +2805,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_durer_OPT2"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_durer.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_durerlarge.2
 		}
 	}
 }
@@ -2814,11 +2827,50 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_durer_OPT3"
-		random_owned_province = {
-			add_base_tax = 2
-			add_base_production = 3
-			add_base_manpower = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_durer.3
+			days = 2
 		}
+		country_event = {
+			id = patronage_of_the_arts_durerlarge.3
+		}
+	}
+}
+namespace = patronage_of_the_arts_durerlarge
+country_event = {
+	# durerLARGE1
+	id = patronage_of_the_arts_durerlarge.1
+	title = "patronage_of_the_arts_durerTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE033_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_durer_OPT2"
+	}
+}
+country_event = {
+	# durerLARGE2
+	id = patronage_of_the_arts_durerlarge.2
+	title = "patronage_of_the_arts_durerTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE034_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_durer_OPT1"
+	}
+}
+country_event = {
+	# durerLARGE3
+	id = patronage_of_the_arts_durerlarge.3
+	title = "patronage_of_the_arts_durerTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE035_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_durer_OPT2"
 	}
 }
 
@@ -2936,10 +2988,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_davinci_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_davinci.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_davincilarge.1
 		}
 	}
 }
@@ -2952,10 +3009,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_davinci_OPT2"
-		random_owned_province = {
-			add_base_tax = 2
-			add_base_production = 2
-			add_base_manpower = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_davinci.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_davincilarge.2
 		}
 	}
 }
@@ -2968,11 +3030,51 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_davinci_OPT3"
-		random_owned_province = {
-			add_base_tax = 3
-			add_base_production = 3
-			add_base_manpower = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_davinci.3
+			days = 2
 		}
+		country_event = {
+			id = patronage_of_the_arts_davincilarge.3
+		}
+	}
+}
+namespace = patronage_of_the_arts_davincilarge
+country_event = {
+	# davinciLARGE1
+	id = patronage_of_the_arts_davincilarge.1
+	title = "patronage_of_the_arts_davinciTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE036_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_davinci_OPT2"
+	}
+	
+}
+country_event = {
+	# davinciLARGE2
+	id = patronage_of_the_arts_davincilarge.2
+	title = "patronage_of_the_arts_davinciTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE037_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_davinci_OPT1"
+	}
+}
+country_event = {
+	# davinciLARGE3
+	id = patronage_of_the_arts_davincilarge.3
+	title = "patronage_of_the_arts_davinciTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE038_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_davinci_OPT2"
 	}
 }
 
@@ -3076,10 +3178,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_raphael_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_raphael.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_raphaellarge.1
 		}
 	}
 }
@@ -3092,10 +3199,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_raphael_OPT2"
-		random_owned_province = {
-			add_base_tax = 2
-			add_base_production = 2
-			add_base_manpower = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_raphael.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_raphaellarge.2
 		}
 	}
 }
@@ -3108,11 +3220,50 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_raphael_OPT3"
-		random_owned_province = {
-			add_base_tax = 3
-			add_base_production = 3
-			add_base_manpower = 1
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_raphael.3
+			days = 2
 		}
+		country_event = {
+			id = patronage_of_the_arts_raphaellarge.3
+		}
+	}
+}
+namespace = patronage_of_the_arts_raphaellarge
+country_event = {
+	# raphaelLARGE1
+	id = patronage_of_the_arts_raphaellarge.1
+	title = "patronage_of_the_arts_raphaelTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE039_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_raphael_OPT2"
+	}
+}
+country_event = {
+	# raphaelLARGE2
+	id = patronage_of_the_arts_raphaellarge.2
+	title = "patronage_of_the_arts_raphaelTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE040_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_raphael_OPT1"
+	}
+}
+country_event = {
+	# raphaelLARGE3
+	id = patronage_of_the_arts_raphaellarge.3
+	title = "patronage_of_the_arts_raphaelTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE041_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_raphael_OPT3"
 	}
 }
 
