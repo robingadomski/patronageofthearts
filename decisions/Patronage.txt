@@ -142,3 +142,138 @@ country_decisions = {
 		}
 	}
 }
+country_decisions = {
+	patronage_of_the_arts_1_1450s = {
+		potential = {
+			OR = {
+				culture_group = germanic
+				culture_group = latin
+				culture_group = french
+				culture_group = iberian
+			}
+		}
+		allow = {
+			has_dip_advisor = yes
+			years_of_income = 1
+			dip_power = 200
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts.1
+			}
+		}
+	}
+}
+#######################################################
+#Desicionsforart
+#######################################################
+country_decisions = {
+	patronage_of_the_arts_art1 = {
+		potential = { 
+			 has_country_modifier = alberti_teaches_country 
+		}
+		allow = {
+			 has_country_modifier = alberti_teaches_country 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts.1
+			}
+		}
+	}
+}
+country_decisions = {
+	janvaneyck_work1 = {
+		potential = { 
+			 has_country_modifier = janvaneyck_work1
+		}
+		allow = {
+			 has_country_modifier = janvaneyck_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_vaneyck.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_vaneycklarge.1
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	janvaneyck_work2 = {
+		potential = { 
+			 has_country_modifier = janvaneyck_work2
+		}
+		allow = {
+			 has_country_modifier = janvaneyck_work2 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_vaneyck.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_vaneycklarge.2
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	janvaneyck_work3 = {
+		potential = { 
+			 has_country_modifier = janvaneyck_work3
+		}
+		allow = {
+			 has_country_modifier = janvaneyck_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_vaneyck.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_vaneycklarge.3
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	janvaneyck_work4 = {
+		potential = { 
+			 has_country_modifier = janvaneyck_work4
+		}
+		allow = {
+			 has_country_modifier = janvaneyck_work4 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_vaneyck.4
+			}
+			country_event = {
+				id = patronage_of_the_arts_vaneycklarge.4
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	janvaneyck_work5 = {
+		potential = { 
+			 has_country_modifier = janvaneyck_work5
+		}
+		allow = {
+			 has_country_modifier = janvaneyck_work5 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_vaneyck.5
+			}
+			country_event = {
+				id = patronage_of_the_arts_vaneycklarge.5
+			}
+		}
+		
+	}
+}

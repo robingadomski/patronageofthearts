@@ -1,9 +1,25 @@
 alberti_teaches_country = {
 	idea_cost = -0.1
 	technology_cost = -0.05
+
 }
 alberti_renovates_residency = {
 	diplomatic_annexation_cost = -0.1
 	diplomatic_reputation = 2
 	country_diplomatic_power = 1
+}
+janvaneyck_work1 = {
+	picture = "num_accepted_cultures"
+}
+janvaneyck_work2 = {
+	picture = "num_accepted_cultures"
+}
+janvaneyck_work3 = {
+	picture = "num_accepted_cultures"
+}
+janvaneyck_work4 = {
+	picture = "num_accepted_cultures"
+}
+janvaneyck_work5 = {
+	picture = "num_accepted_cultures"
 }

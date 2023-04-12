@@ -15,3 +15,33 @@
   desc_alberti_teaches_country:0 "Leon Battista Alberti is currently teaching our brightest students."
   alberti_renovates_residency:0 "Leon Battista Alberti is renovating our residency."
   desc_alberti_renovates_residency:0 "Leon Battista Alberti is renovating our residency. Rulers from abroad will be impressed by the upkeep of our residency!"
+  patronage_of_the_arts_art1_title:0 "Open artwork 1"
+  patronage_of_the_arts_art1_desc:0 "Opens artwork 1"
+##############
+#
+#
+#artworks
+#
+#
+#
+###############
+  janvaneyck_work1:0 "Van Eyck; Virgin and Child, with Saints and Donor"
+  desc_janvaneyck_work1:0 "Opens Jan Van Eyck's 'Virgin and Child, with Saints and Donor'"
+  janvaneyck_work1_title:0 "Jan Van Eyck's 'Virgin and Child, with Saints and Donor'"
+  janvaneyck_work1_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Jan Van Eyck's 'Virgin and Child, with Saints and Donor'"
+  janvaneyck_work2:0 "Van Eyck; Virgin and Child with Canon van der Paele"
+  desc_janvaneyck_work2:0 "Opens Jan Van Eyck's Virgin and Child with Canon van der Paele"
+  janvaneyck_work2_title:0 "Jan Van Eyck's 'Virgin and Child with Canon van der Paele'"
+  janvaneyck_work2_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Jan Van Eyck's 'Virgin and Child with Canon van der Paele'"
+  janvaneyck_work3:0 "Van Eyck; Lam Gods"
+  desc_janvaneyck_work3:0 "Opens Jan Van Eyck's 'Lam Gods'"
+  janvaneyck_work3_title:0 "Jan Van Eyck's 'Lam Gods'"
+  janvaneyck_work3_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Jan Van Eyck's 'Lam Gods'"
+  janvaneyck_work4:0 "Van Eyck; The Arnolfini Portrait"
+  desc_janvaneyck_work4:0 "Opens Jan Van Eyck's 'The Arnolfini Portrait'"
+  janvaneyck_work4_title:0 "Jan Van Eyck's 'The Arnolfini Portrait'"
+  janvaneyck_work4_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Jan Van Eyck's 'The Arnolfini Portrait'"
+  janvaneyck_work5:0 "Van Eyck; The Annunciation"
+  desc_janvaneyck_work5:0 "Opens Jan Van Eyck's 'The Annunciation'"
+  janvaneyck_work5_title:0 "Jan Van Eyck's 'The Annunciation'"
+  janvaneyck_work5_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Jan Van Eyck's 'The Annunciation'"
