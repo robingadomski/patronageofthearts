@@ -584,6 +584,10 @@ country_event = {
 		random_owned_province = {
 			add_base_tax = 1
 		}
+		add_country_modifier = {
+			name = rogiervanderweyden_work1
+			duration = 91250
+		}
 		add_treasury = -100
 		add_dip_power = 20
 		add_mil_power = 20
@@ -620,6 +624,10 @@ country_event = {
 		random_owned_province = {
 			add_base_tax = 1
 			add_base_production = 1
+		}
+		add_country_modifier = {
+			name = rogiervanderweyden_work2
+			duration = 91250
 		}
 		add_treasury = -150
 		add_dip_power = 50
@@ -658,6 +666,10 @@ country_event = {
 			add_base_tax = 1
 			add_base_production = 1
 			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = rogiervanderweyden_work3
+			duration = 91250
 		}
 		add_treasury = -180
 		add_dip_power = 50
@@ -827,6 +839,10 @@ country_event = {
 		random_owned_province = {
 			add_base_tax = 1
 		}
+		add_country_modifier = {
+			name = dirkbouts_work1
+			duration = 91250
+		}
 		add_treasury = -100
 		add_dip_power = 15
 		add_mil_power = 25
@@ -847,6 +863,10 @@ country_event = {
 		random_owned_province = {
 			add_base_tax = 1
 			add_base_production = 1
+		}
+		add_country_modifier = {
+			name = dirkbouts_work2
+			duration = 91250
 		}
 		add_treasury = -200
 		add_dip_power = 25
@@ -869,6 +889,10 @@ country_event = {
 			add_base_tax = 1
 			add_base_production = 1
 			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = dirkbouts_work3
+			duration = 91250
 		}
 		add_treasury = -225
 		add_dip_power = 50
@@ -1022,6 +1046,10 @@ country_event = {
 		random_owned_province = {
 			add_base_tax = 1
 		}
+		add_country_modifier = {
+			name = antonellodamessina_work1
+			duration = 91250
+		}
 		add_treasury = -120
 		add_dip_power = 33
 		add_mil_power = 15
@@ -1042,6 +1070,10 @@ country_event = {
 		random_owned_province = {
 			add_base_tax = 1
 			add_base_production = 1
+		}
+		add_country_modifier = {
+			name = antonellodamessina_work2
+			duration = 91250
 		}
 		add_treasury = -170
 		add_dip_power = 35
@@ -1064,6 +1096,10 @@ country_event = {
 			add_base_tax = 1
 			add_base_production = 1
 			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = antonellodamessina_work3
+			duration = 91250
 		}
 		add_treasury = -225
 		add_dip_power = 50
@@ -1230,6 +1266,10 @@ country_event = {
 		random_owned_province = {
 			add_base_tax = 1
 		}
+		add_country_modifier = {
+			name = sandrobotticelli_work1
+			duration = 91250
+		}
 		add_treasury = -150
 		add_dip_power = 25
 		add_mil_power = 15
@@ -1250,6 +1290,10 @@ country_event = {
 		random_owned_province = {
 			add_base_tax = 1
 			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = sandrobotticelli_work2
+			duration = 91250
 		}
 		add_treasury = -225
 		add_dip_power = 35
@@ -1285,6 +1329,10 @@ country_event = {
 			add_base_tax = 1
 			add_base_production = 1
 			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = sandrobotticelli_work3
+			duration = 91250
 		}
 		add_treasury = -400
 		add_dip_power = 75

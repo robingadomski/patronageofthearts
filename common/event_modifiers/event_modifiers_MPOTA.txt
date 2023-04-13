@@ -1,4 +1,4 @@
-alberti_teaches_country = {
+﻿alberti_teaches_country = {
 	idea_cost = -0.1
 	technology_cost = -0.05
 
@@ -12,14 +12,52 @@ janvaneyck_work1 = {
 	picture = "num_accepted_cultures"
 }
 janvaneyck_work2 = {
-	picture = "num_accepted_cultures"
+	picture = "accept_vassalization_reasons"
 }
 janvaneyck_work3 = {
-	picture = "num_accepted_cultures"
+	picture = "accept_vassalization_reasons"
 }
 janvaneyck_work4 = {
-	picture = "num_accepted_cultures"
+	picture = "accept_vassalization_reasons"
 }
 janvaneyck_work5 = {
-	picture = "num_accepted_cultures"
+	picture = "accept_vassalization_reasons"
+}
+rogiervanderweyden_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+rogiervanderweyden_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+rogiervanderweyden_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+dirkbouts_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+dirkbouts_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+dirkbouts_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+  
+antonellodamessina_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+antonellodamessina_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+antonellodamessina_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+  
+sandrobotticelli_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+sandrobotticelli_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+sandrobotticelli_work3 = {
+	picture = "accept_vassalization_reasons"
 }
