@@ -116,12 +116,23 @@ country_event = {
 		}
 	}
 	option = {
-		name = "patronage_of_the_arts_EVTOPT00032"		#Bellini
+		name = "patronage_of_the_arts_EVTOPT00032"		#Botticelli
 		add_treasury = -25
 		add_prestige = 4
 		hidden_effect = {
 			country_event = {
 				id = patronage_of_the_arts.32
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_EVTOPT00034"		#Dellafrancesca
+		add_treasury = -35
+		add_prestige = 4
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_arts.111
 				days = 2
 			}
 		}
@@ -137,6 +148,7 @@ country_event = {
 			}
 		}
 	}
+	
 }
 
 country_event = {
@@ -1481,6 +1493,226 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_botticelli_OPT1"
+	}
+}
+country_event = {
+	#PIERODELLAFRANCESCA
+	id = patronage_of_the_arts.111
+	title = "patronage_of_the_arts_dellafrancesca_EVTTITLE01"
+	desc = "patronage_of_the_arts_dellafrancesca_EVTDESC01"
+	picture = ARTPATRONAGE10049_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dellafrancescaOPT01"		#dellafrancesca1
+		country_event = {
+			id = patronage_of_the_arts_dellafrancesca.1
+			days = 7
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
+		add_country_modifier = {
+			name = pierodellafrancesca_work1
+			duration = 91250
+		}
+		add_treasury = -120
+		add_dip_power = 33
+		add_mil_power = 15
+		add_prestige = 5
+		add_legitimacy = 5
+		add_papal_influence = 15
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_dellafrancescaOPT02"		#dellafrancesca2
+		country_event = {
+			id = patronage_of_the_arts_dellafrancesca.2
+			days = 7
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+		add_country_modifier = {
+			name = pierodellafrancesca_work2
+			duration = 91250
+		}
+		add_treasury = -170
+		add_dip_power = 35
+		add_mil_power = 35
+		add_prestige = 8
+		add_legitimacy = 8
+		add_papal_influence = 25
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 2
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_dellafrancescaOPT03"		#dellafrancesca3
+		country_event = {
+			id = patronage_of_the_arts_dellafrancesca.3
+			days = 7
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = pierodellafrancesca_work3
+			duration = 91250
+		}
+		add_treasury = -225
+		add_dip_power = 50
+		add_mil_power = 50
+		add_adm_power = 33
+		add_prestige = 10
+		add_legitimacy = 10
+		add_papal_influence = 33
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 3
+		}
+		every_country = {
+			limit = {
+				culture_group = latin
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoitalianearlyrenaissance"
+		add_treasury = -5
+		country_event = {
+			id = patronage_of_the_arts.3
+			days = 2
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_backtoearlyrenaissance"
+		add_treasury = -10
+		country_event = {
+			id = patronage_of_the_arts.1
+			days = 2
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronage_of_the_arts_exit"
+		add_treasury = 5
+		add_prestige = -5
+	}
+}
+
+namespace = patronage_of_the_arts_dellafrancesca
+country_event = {
+	#dellafrancesca1
+	id = patronage_of_the_arts_dellafrancesca.1
+	title = "patronage_of_the_arts_dellafrancescaTITLE1"
+	desc = "patronage_of_the_arts_dellafrancescaDESC1"
+	picture = ARTPATRONAGE10050_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dellafrancesca_OPT1"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_dellafrancesca.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_dellafrancescalarge.1
+		}
+	}
+}
+
+country_event = {
+	#dellafrancesca2
+	id = patronage_of_the_arts_dellafrancesca.2
+	title = "patronage_of_the_arts_dellafrancescaTITLE2"
+	desc = "patronage_of_the_arts_dellafrancescaDESC2"
+	picture = ARTPATRONAGE10051_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dellafrancesca_OPT2"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_dellafrancesca.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_dellafrancescalarge.2
+		}
+	}
+}
+
+country_event = {
+	#dellafrancesca3
+	id = patronage_of_the_arts_dellafrancesca.3
+	title = "patronage_of_the_arts_dellafrancescaTITLE3"
+	desc = "patronage_of_the_arts_dellafrancescaDESC3"
+	picture = ARTPATRONAGE10052_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dellafrancesca_OPT3"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_dellafrancesca.3
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_dellafrancescalarge.3
+		}
+	}
+}
+namespace = patronage_of_the_arts_dellafrancescalarge
+country_event = {
+	#dellafrancescaLARGE1
+	id = patronage_of_the_arts_dellafrancescalarge.1
+	title = "patronage_of_the_arts_dellafrancescaTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE085_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dellafrancesca_OPT2"
+	}
+}
+country_event = {
+	#dellafrancescaLARGE2
+	id = patronage_of_the_arts_dellafrancescalarge.2
+	title = "patronage_of_the_arts_dellafrancescaTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE086_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dellafrancesca_OPT1"
+	}
+}
+country_event = {
+	#dellafrancescaLARGE3
+	id = patronage_of_the_arts_dellafrancescalarge.3
+	title = "patronage_of_the_arts_dellafrancescaTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE087_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dellafrancesca_OPT2"
 	}
 }
 country_event = {

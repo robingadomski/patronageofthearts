@@ -61,3 +61,12 @@ sandrobotticelli_work2 = {
 sandrobotticelli_work3 = {
 	picture = "accept_vassalization_reasons"
 }
+pierodellafrancesca_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+pierodellafrancesca_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+pierodellafrancesca_work3 = {
+	picture = "accept_vassalization_reasons"
+}

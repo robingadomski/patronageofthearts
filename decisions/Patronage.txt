@@ -483,3 +483,60 @@ country_decisions = {
 		
 	}
 }
+country_decisions = {
+	pierodellafrancesca_work1 = {
+		potential = { 
+			 has_country_modifier = pierodellafrancesca_work1
+		}
+		allow = {
+			 has_country_modifier = pierodellafrancesca_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_dellafrancesca.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_dellafrancescalarge.1
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	pierodellafrancesca_work2 = {
+		potential = { 
+			 has_country_modifier = pierodellafrancesca_work2
+		}
+		allow = {
+			 has_country_modifier = pierodellafrancesca_work2 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_dellafrancesca.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_dellafrancescalarge.2
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	pierodellafrancesca_work3 = {
+		potential = { 
+			 has_country_modifier = pierodellafrancesca_work3
+		}
+		allow = {
+			 has_country_modifier = pierodellafrancesca_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_dellafrancesca.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_dellafrancescalarge.3
+			}
+		}
+		
+	}
+}
