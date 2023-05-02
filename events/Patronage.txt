@@ -7187,3 +7187,181 @@ country_event = {
 
 
 
+##########################################################################################
+###
+###
+###ANTIQUITY
+###
+###
+###########################################################################################
+
+namespace = patronage_of_the_antiquearts
+country_event = {
+	id = patronage_of_the_antiquearts.1
+	title = "patronage_of_the_antiquearts_EVTTITLE1"	#Patronage of the antique arts.
+	desc = "patronage_of_the_antiquearts_EVTDESC1"	#We should invest in the antique art...
+	picture = ARTPATRONAGE10053_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		is_year = 1443
+		NOT = {
+			is_year = 1500
+		}
+		OR = {
+			culture_group = germanic
+			culture_group = latin
+			culture_group = french
+			culture_group = iberian
+		}
+	}
+	option = {
+		#goes to option ID 2 (OPTION1)
+		name = "patronage_of_the_antiquearts_EVTOPT2"		#invest in Hellenic art
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.2
+				days = 2
+			}
+		}
+	}
+	option = {
+		#goes to option ID 3 (OPTION2) #invest in Roman art 
+		name = "patronage_of_the_antiquearts_EVTOPT3"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.3
+				days = 2
+			}
+		}
+	}
+	option = {
+		#abroad  (invest in mycenaean/minoan art) 
+		name = "patronage_of_the_antiquearts_EVTOPT4"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.4
+				days = 2
+			}
+		}
+	}
+	option = {
+		#exit  (OPTION4) 
+		name = "patronage_of_the_antiquearts_EVTOPT5"
+		add_treasury = 5
+		add_prestige = -10
+	}
+}
+country_event = {
+	id = patronage_of_the_antiquearts.2
+	title = "patronage_of_the_antiquearts_2_EVTTITLE1"	#hellenicart
+	desc = "patronage_of_the_antiquearts_2_EVTDESC1"	#weshouldinvestinhellenicart
+	picture = ARTPATRONAGE10054_eventPicture
+	is_triggered_only = yes
+	option = {
+		#goes to option ID 2 (OPTION1)
+		name = "patronage_of_the_antiquearts_2_EVTOPT1"		#invest in Hellenic art
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.21
+				days = 2
+			}
+		}
+	}
+	option = {
+		#goes to option ID 3 (OPTION2) #invest in Roman art 
+		name = "patronage_of_the_antiquearts_2_EVTOPT2"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.22
+				days = 2
+			}
+		}
+	}
+	option = {
+		#abroad  (invest in mycenaean/minoan art) 
+		name = "patronage_of_the_antiquearts_2_EVTOPT3"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.23
+				days = 2
+			}
+		}
+	}
+	option = {
+		#abroad  (invest in mycenaean/minoan art) 
+		name = "patronage_of_the_antiquearts_2_EVTOPT4"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.24
+				days = 2
+			}
+		}
+	}
+	option = {
+		#abroad  (invest in mycenaean/minoan art) 
+		name = "patronage_of_the_antiquearts_2_EVTOPT5"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.25
+				days = 2
+			}
+		}
+	}
+}
+country_event = {
+	id = patronage_of_the_antiquearts.3
+	title = "patronage_of_the_antiquearts_3_EVTTITLE1"	#romanart	
+	desc = "patronage_of_the_antiquearts_3_EVTDESC1"	#weshouldinvestinromanicart
+	picture = ARTPATRONAGE10055_eventPicture
+	is_triggered_only = yes
+	option = {
+		#art1
+		name = "patronage_of_the_antiquearts_3_EVTOPT1"		#invest in Roman art
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.31
+				days = 2
+			}
+		}
+	}
+	option = {
+		#art2
+		name = "patronage_of_the_antiquearts_3_EVTOPT2"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.32
+				days = 2
+			}
+		}
+	}
+	option = {
+		#art3 
+		name = "patronage_of_the_antiquearts_3_EVTOPT3"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.33
+				days = 2
+			}
+		}
+	}
+	option = {
+		#art4
+		name = "patronage_of_the_antiquearts_3_EVTOPT4"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.34
+				days = 2
+			}
+		}
+	}
+	option = {
+		#art5
+		name = "patronage_of_the_antiquearts_3_EVTOPT5"
+		hidden_effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.35
+				days = 2
+			}
+		}
+	}
+}

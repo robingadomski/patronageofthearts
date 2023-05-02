@@ -344,6 +344,27 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "ARTPATRONAGE10053_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGE10053_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGE10054_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGE10054_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGE10055_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGE10055_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "ARTPATRONAGEART001_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART001_eventPicture.dds"
 		alwaystransparent = yes
