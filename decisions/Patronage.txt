@@ -1,5 +1,6 @@
 country_decisions = {
 	patronage_of_the_arts_1_1450s = {
+		color = { 129 6 30 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -23,6 +24,7 @@ country_decisions = {
 
 country_decisions = {
 	patronage_of_the_arts_1_1500s = {
+		color = { 129 6 30 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -48,6 +50,7 @@ country_decisions = {
 
 country_decisions = {
 	patronage_of_the_arts_1_1550s = {
+		color = { 129 6 30 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -79,6 +82,7 @@ country_decisions = {
 
 country_decisions = {
 	patronage_of_the_arts_1_1590s = {
+		color = { 129 6 30 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -112,6 +116,7 @@ country_decisions = {
 
 country_decisions = {
 	patronage_of_the_arts_1_1200s = {
+		color = { 129 6 30 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -162,6 +167,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work1 = {
+		color = { 232 157 6 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work1
 		}
@@ -181,6 +187,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work2 = {
+		color = { 232 157 6 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work2
 		}
@@ -200,6 +207,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work3 = {
+		color = { 232 157 6 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work3
 		}
@@ -219,6 +227,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work4 = {
+		color = { 232 157 6 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work4
 		}
@@ -238,6 +247,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work5 = {
+		color = { 232 157 6 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work5
 		}
