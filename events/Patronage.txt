@@ -7319,7 +7319,7 @@ country_event = {
 		name = "patronage_of_the_antiquearts_3_EVTOPT1"		#invest in Roman art
 		hidden_effect = {
 			country_event = {
-				id = patronage_of_the_antiquearts_roman.1
+				id = patronage_of_the_arts_antiquearts_roman.1
 				days = 2
 			}
 		}
@@ -7329,7 +7329,7 @@ country_event = {
 		name = "patronage_of_the_antiquearts_3_EVTOPT2"
 		hidden_effect = {
 			country_event = {
-				id = patronage_of_the_antiquearts_roman.2
+				id = patronage_of_the_arts_antiquearts_roman.2
 				days = 2
 			}
 		}
@@ -7339,7 +7339,7 @@ country_event = {
 		name = "patronage_of_the_antiquearts_3_EVTOPT3"
 		hidden_effect = {
 			country_event = {
-				id = patronage_of_the_antiquearts_roman.3
+				id = patronage_of_the_arts_antiquearts_roman.3
 				days = 2
 			}
 		}
@@ -7349,7 +7349,7 @@ country_event = {
 		name = "patronage_of_the_antiquearts_3_EVTOPT4"
 		hidden_effect = {
 			country_event = {
-				id = patronage_of_the_antiquearts_roman.4
+				id = patronage_of_the_arts_antiquearts_roman.4
 				days = 2
 			}
 		}
@@ -7359,7 +7359,7 @@ country_event = {
 		name = "patronage_of_the_antiquearts_3_EVTOPT5"
 		hidden_effect = {
 			country_event = {
-				id = patronage_of_the_antiquearts_roman.5
+				id = patronage_of_the_arts_antiquearts_roman.5
 				days = 2
 			}
 		}
@@ -7529,4 +7529,167 @@ country_event = {
 		name = "patronage_of_the_arts_antiquearts_hellenic_OPT5"
 	}
 }
+namespace = patronage_of_the_arts_antiquearts_roman
+country_event = {
+	#roman1
+	id = patronage_of_the_arts_antiquearts_roman.1
+	title = "patronage_of_the_arts_antiquearts_romanTITLE1"
+	desc = "patronage_of_the_arts_antiquearts_romanDESC1"
+	picture = ARTPATRONAGEART095_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT1"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_roman.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_romanlarge.1
+		}
+	}
+}
 
+country_event = {
+	#roman2
+	id = patronage_of_the_arts_antiquearts_roman.2
+	title = "patronage_of_the_arts_antiquearts_romanTITLE2"
+	desc = "patronage_of_the_arts_antiquearts_romanDESC2"
+	picture = ARTPATRONAGEART096_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT2"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_roman.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_romanlarge.2
+		}
+	}
+}
+
+country_event = {
+	#roman3
+	id = patronage_of_the_arts_antiquearts_roman.3
+	title = "patronage_of_the_arts_antiquearts_romanTITLE3"
+	desc = "patronage_of_the_arts_antiquearts_romanDESC3"
+	picture = ARTPATRONAGEART097_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT3"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_roman.3
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_romanlarge.3
+		}
+	}
+}
+country_event = {
+	#roman4
+	id = patronage_of_the_arts_antiquearts_roman.4
+	title = "patronage_of_the_arts_antiquearts_romanTITLE4"
+	desc = "patronage_of_the_arts_antiquearts_romanDESC4"
+	picture = ARTPATRONAGEART098_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT4"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_roman.4
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_romanlarge.4
+		}
+	}
+}
+country_event = {
+	#roman5
+	id = patronage_of_the_arts_antiquearts_roman.5
+	title = "patronage_of_the_arts_antiquearts_romanTITLE5"
+	desc = "patronage_of_the_arts_antiquearts_romanDESC5"
+	picture = ARTPATRONAGEART099_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT5"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_roman.5
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_antiquearts_romanlarge.5
+		}
+	}
+}
+namespace = patronage_of_the_arts_antiquearts_romanlarge
+country_event = {
+	#romanLARGE1
+	id = patronage_of_the_arts_antiquearts_romanlarge.1
+	title = "patronage_of_the_arts_antiquearts_romanTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE093_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT1"
+	}
+}
+country_event = {
+	#romanLARGE2
+	id = patronage_of_the_arts_antiquearts_romanlarge.2
+	title = "patronage_of_the_arts_antiquearts_romanTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE094_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT2"
+	}
+}
+country_event = {
+	#romanLARGE3
+	id = patronage_of_the_arts_antiquearts_romanlarge.3
+	title = "patronage_of_the_arts_antiquearts_romanTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE095_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT3"
+	}
+}
+country_event = {
+	#romanLARGE4
+	id = patronage_of_the_arts_antiquearts_romanlarge.4
+	title = "patronage_of_the_arts_antiquearts_romanTITLE4"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE096_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT4"
+	}
+}
+country_event = {
+	#romanLARGE5
+	id = patronage_of_the_arts_antiquearts_romanlarge.5
+	title = "patronage_of_the_arts_antiquearts_romanTITLE5"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE097_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_antiquearts_roman_OPT5"
+	}
+}
