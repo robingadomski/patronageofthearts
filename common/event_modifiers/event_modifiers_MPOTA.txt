@@ -9,7 +9,7 @@ alberti_renovates_residency = {
 	country_diplomatic_power = 1
 }
 janvaneyck_work1 = {
-	picture = "num_accepted_cultures"
+	picture = "accept_vassalization_reasons"
 }
 janvaneyck_work2 = {
 	picture = "accept_vassalization_reasons"
@@ -68,5 +68,110 @@ pierodellafrancesca_work2 = {
 	picture = "accept_vassalization_reasons"
 }
 pierodellafrancesca_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+jacomart_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+jacomart_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+jacomart_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+fouquet_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+fouquet_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+fouquet_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+dionysis_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+dionysis_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+dionysis_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+bosch_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+bosch_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+bosch_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+bruegel_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+bruegel_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+bruegel_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+durer_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+durer_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+durer_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+davinci_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+davinci_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+davinci_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+raphael_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+raphael_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+raphael_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+michelangelo_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+michelangelo_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+clouet_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+clouet_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+clouet_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+nasuh_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+nasuh_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+nasuh_work3 = {
+	picture = "accept_vassalization_reasons"
+}
+samostrzelnik_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+samostrzelnik_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+samostrzelnik_work3 = {
 	picture = "accept_vassalization_reasons"
 }

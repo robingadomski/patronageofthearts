@@ -1,6 +1,6 @@
 country_decisions = {
 	patronage_of_the_arts_1_1450s = {
-		color = { 129 6 30 }
+		color = { 232 157 6 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -24,7 +24,7 @@ country_decisions = {
 
 country_decisions = {
 	patronage_of_the_arts_1_1500s = {
-		color = { 129 6 30 }
+		color = { 232 157 6 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -50,7 +50,7 @@ country_decisions = {
 
 country_decisions = {
 	patronage_of_the_arts_1_1550s = {
-		color = { 129 6 30 }
+		color = { 232 157 6 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -82,7 +82,7 @@ country_decisions = {
 
 country_decisions = {
 	patronage_of_the_arts_1_1590s = {
-		color = { 129 6 30 }
+		color = { 232 157 6 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -116,7 +116,7 @@ country_decisions = {
 
 country_decisions = {
 	patronage_of_the_arts_1_1200s = {
-		color = { 129 6 30 }
+		color = { 232 157 6 }
 		potential = {
 			OR = {
 				culture_group = germanic
@@ -152,6 +152,7 @@ country_decisions = {
 #######################################################
 country_decisions = {
 	patronage_of_the_arts_art1 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = alberti_teaches_country 
 		}
@@ -167,7 +168,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work1 = {
-		color = { 232 157 6 }
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work1
 		}
@@ -187,7 +188,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work2 = {
-		color = { 232 157 6 }
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work2
 		}
@@ -207,7 +208,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work3 = {
-		color = { 232 157 6 }
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work3
 		}
@@ -227,7 +228,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work4 = {
-		color = { 232 157 6 }
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work4
 		}
@@ -247,7 +248,7 @@ country_decisions = {
 }
 country_decisions = {
 	janvaneyck_work5 = {
-		color = { 232 157 6 }
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = janvaneyck_work5
 		}
@@ -267,6 +268,7 @@ country_decisions = {
 }
 country_decisions = {
 	rogiervanderweyden_work1 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = rogiervanderweyden_work1
 		}
@@ -286,6 +288,7 @@ country_decisions = {
 }
 country_decisions = {
 	rogiervanderweyden_work2 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = rogiervanderweyden_work2
 		}
@@ -305,6 +308,7 @@ country_decisions = {
 }
 country_decisions = {
 	rogiervanderweyden_work3 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = rogiervanderweyden_work3
 		}
@@ -324,6 +328,7 @@ country_decisions = {
 }
 country_decisions = {
 	dirkbouts_work1 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = dirkbouts_work1
 		}
@@ -343,6 +348,7 @@ country_decisions = {
 }
 country_decisions = {
 	dirkbouts_work2 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = dirkbouts_work2
 		}
@@ -362,6 +368,7 @@ country_decisions = {
 }
 country_decisions = {
 	dirkbouts_work3 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = dirkbouts_work3
 		}
@@ -381,6 +388,7 @@ country_decisions = {
 }
 country_decisions = {
 	antonellodamessina_work1 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = antonellodamessina_work1
 		}
@@ -395,11 +403,11 @@ country_decisions = {
 				id = patronage_of_the_arts_damessinalarge.1
 			}
 		}
-		
 	}
 }
 country_decisions = {
 	antonellodamessina_work2 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = antonellodamessina_work2
 		}
@@ -414,11 +422,11 @@ country_decisions = {
 				id = patronage_of_the_arts_damessinalarge.2
 			}
 		}
-		
 	}
 }
 country_decisions = {
 	antonellodamessina_work3 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = antonellodamessina_work3
 		}
@@ -438,6 +446,7 @@ country_decisions = {
 }
 country_decisions = {
 	sandrobotticelli_work1 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = sandrobotticelli_work1
 		}
@@ -457,6 +466,7 @@ country_decisions = {
 }
 country_decisions = {
 	sandrobotticelli_work2 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = sandrobotticelli_work2
 		}
@@ -476,6 +486,7 @@ country_decisions = {
 }
 country_decisions = {
 	sandrobotticelli_work3 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = sandrobotticelli_work3
 		}
@@ -495,6 +506,7 @@ country_decisions = {
 }
 country_decisions = {
 	pierodellafrancesca_work1 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = pierodellafrancesca_work1
 		}
@@ -514,6 +526,7 @@ country_decisions = {
 }
 country_decisions = {
 	pierodellafrancesca_work2 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = pierodellafrancesca_work2
 		}
@@ -533,6 +546,7 @@ country_decisions = {
 }
 country_decisions = {
 	pierodellafrancesca_work3 = {
+		color = { 184 115 51 }
 		potential = { 
 			 has_country_modifier = pierodellafrancesca_work3
 		}
@@ -550,3 +564,671 @@ country_decisions = {
 		
 	}
 }
+country_decisions = {
+	jacomart_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = jacomart_work1
+		}
+		allow = {
+			 has_country_modifier = jacomart_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_jacomart.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_jacomartlarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	jacomart_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = jacomart_work2
+		}
+		allow = {
+			 has_country_modifier = jacomart_work2 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_jacomart.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_jacomartlarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	jacomart_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = jacomart_work3
+		}
+		allow = {
+			 has_country_modifier = jacomart_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_jacomart.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_jacomartlarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	fouquet_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = fouquet_work1
+		}
+		allow = {
+			 has_country_modifier = fouquet_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_fouquet.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_fouquetlarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	fouquet_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = fouquet_work2
+		}
+		allow = {
+			 has_country_modifier = fouquet_work2 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_fouquet.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_fouquetlarge.2
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	fouquet_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = fouquet_work3
+		}
+		allow = {
+			 has_country_modifier = fouquet_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_fouquet.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_fouquetlarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	dionysis_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = dionysis_work1
+		}
+		allow = {
+			 has_country_modifier = dionysis_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_dionysis.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_dionysislarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	dionysis_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = dionysis_work2
+		}
+		allow = {
+			 has_country_modifier = dionysis_work2 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_dionysis.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_dionysislarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	dionysis_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = dionysis_work3
+		}
+		allow = {
+			 has_country_modifier = dionysis_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_dionysis.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_dionysislarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	bosch_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = bosch_work1
+		}
+		allow = {
+			 has_country_modifier = bosch_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_bosch.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_boschlarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	bosch_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = bosch_work2
+		}
+		allow = {
+			 has_country_modifier = bosch_work2
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_bosch.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_boschlarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	bosch_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = bosch_work3
+		}
+		allow = {
+			 has_country_modifier = bosch_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_bosch.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_boschlarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	bruegel_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = bruegel_work1
+		}
+		allow = {
+			 has_country_modifier = bruegel_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_bruegel.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_bruegellarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	bruegel_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = bruegel_work2
+		}
+		allow = {
+			 has_country_modifier = bruegel_work2
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_bruegel.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_bruegellarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	bruegel_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = bruegel_work3
+		}
+		allow = {
+			 has_country_modifier = bruegel_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_bruegel.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_bruegellarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	durer_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = durer_work1
+		}
+		allow = {
+			 has_country_modifier = durer_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_durer.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_durerlarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	durer_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = durer_work2
+		}
+		allow = {
+			 has_country_modifier = durer_work2
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_durer.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_durerlarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	durer_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = durer_work3
+		}
+		allow = {
+			 has_country_modifier = durer_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_durer.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_durerlarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	davinci_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = davinci_work1
+		}
+		allow = {
+			 has_country_modifier = davinci_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_davinci.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_davincilarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	davinci_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = davinci_work2
+		}
+		allow = {
+			 has_country_modifier = davinci_work2
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_davinci.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_davincilarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	davinci_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = davinci_work3
+		}
+		allow = {
+			 has_country_modifier = davinci_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_davinci.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_davincilarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	raphael_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = raphael_work1
+		}
+		allow = {
+			 has_country_modifier = raphael_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_raphael.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_raphaellarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	raphael_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = raphael_work2
+		}
+		allow = {
+			 has_country_modifier = raphael_work2
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_raphael.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_raphaellarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	raphael_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = raphael_work3
+		}
+		allow = {
+			 has_country_modifier = raphael_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_raphael.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_raphaellarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	michelangelo_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = michelangelo_work1
+		}
+		allow = {
+			 has_country_modifier = michelangelo_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_michelangelo.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_michelangelolarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	michelangelo_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = michelangelo_work3
+		}
+		allow = {
+			 has_country_modifier = michelangelo_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_michelangelo.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_michelangelolarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	clouet_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = clouet_work1
+		}
+		allow = {
+			 has_country_modifier = clouet_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_clouet.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_clouetlarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	clouet_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = clouet_work2
+		}
+		allow = {
+			 has_country_modifier = clouet_work2
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_clouet.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_clouetlarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	clouet_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = clouet_work3
+		}
+		allow = {
+			 has_country_modifier = clouet_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_clouet.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_clouetlarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	nasuh_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = nasuh_work1
+		}
+		allow = {
+			 has_country_modifier = nasuh_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_nasuh.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_nasuhlarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	nasuh_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = nasuh_work2
+		}
+		allow = {
+			 has_country_modifier = nasuh_work2
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_nasuh.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_nasuhlarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	nasuh_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = nasuh_work3
+		}
+		allow = {
+			 has_country_modifier = nasuh_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_nasuh.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_nasuhlarge.3
+			}
+		}
+	}
+}
+country_decisions = {
+	samostrzelnik_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = samostrzelnik_work1
+		}
+		allow = {
+			 has_country_modifier = samostrzelnik_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_samostrzelnik.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_samostrzelniklarge.1
+			}
+		}
+	}
+}
+country_decisions = {
+	samostrzelnik_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = samostrzelnik_work2
+		}
+		allow = {
+			 has_country_modifier = samostrzelnik_work2
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_samostrzelnik.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_samostrzelniklarge.2
+			}
+		}
+	}
+}
+country_decisions = {
+	samostrzelnik_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = samostrzelnik_work3
+		}
+		allow = {
+			 has_country_modifier = samostrzelnik_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_samostrzelnik.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_samostrzelniklarge.3
+			}
+		}
+	}
+}
+ 
+ 
