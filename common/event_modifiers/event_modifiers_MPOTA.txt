@@ -9,169 +9,259 @@ alberti_renovates_residency = {
 	country_diplomatic_power = 1
 }
 janvaneyck_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 janvaneyck_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 janvaneyck_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 janvaneyck_work4 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 janvaneyck_work5 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 rogiervanderweyden_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 rogiervanderweyden_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 rogiervanderweyden_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 dirkbouts_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 dirkbouts_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 dirkbouts_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
   
 antonellodamessina_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 antonellodamessina_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 antonellodamessina_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
   
 sandrobotticelli_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 sandrobotticelli_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 sandrobotticelli_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 pierodellafrancesca_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 pierodellafrancesca_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 pierodellafrancesca_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 jacomart_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 jacomart_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 jacomart_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 fouquet_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 fouquet_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 fouquet_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 dionysis_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 dionysis_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 dionysis_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 bosch_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 bosch_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 bosch_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 bruegel_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 bruegel_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 bruegel_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 durer_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 durer_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 durer_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 davinci_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 davinci_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 davinci_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 raphael_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 raphael_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 raphael_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 michelangelo_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 michelangelo_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 clouet_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 clouet_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 clouet_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 nasuh_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 nasuh_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 nasuh_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 samostrzelnik_work1 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 samostrzelnik_work2 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
 }
 samostrzelnik_work3 = {
-	picture = "accept_vassalization_reasons"
+	picture = "accepted_culture_threshold"
+}
+titian_work1 = {
+	picture = "accepted_culture_threshold"
+}
+titian_work2 = {
+	picture = "accepted_culture_threshold"
+}
+titian_work3 = {
+	picture = "accepted_culture_threshold"
+}
+tintoretto_work1 = {
+	picture = "accepted_culture_threshold"
+}
+tintoretto_work2 = {
+	picture = "accepted_culture_threshold"
+}
+tintoretto_work3 = {
+	picture = "accepted_culture_threshold"
+}
+veronese_work1 = {
+	picture = "accepted_culture_threshold"
+}
+veronese_work2 = {
+	picture = "accepted_culture_threshold"
+}
+veronese_work3 = {
+	picture = "accepted_culture_threshold"
+}
+elgreco_work1 = {
+	picture = "accepted_culture_threshold"
+}
+elgreco_work2 = {
+	picture = "accepted_culture_threshold"
+}
+elgreco_work3 = {
+	picture = "accepted_culture_threshold"
+}
+wtewael_work1 = {
+	picture = "accepted_culture_threshold"
+}
+wtewael_work2 = {
+	picture = "accepted_culture_threshold"
+}
+wtewael_work3 = {
+	picture = "accepted_culture_threshold"
+}
+cranachyounger_work1 = {
+	picture = "accepted_culture_threshold"
+}
+cranachyounger_work2 = {
+	picture = "accepted_culture_threshold"
+}
+cranachyounger_work3 = {
+	picture = "accepted_culture_threshold"
+}
+rubens_work1 = {
+	picture = "accepted_culture_threshold"
+}
+rubens_work2 = {
+	picture = "accepted_culture_threshold"
+}
+rubens_work3 = {
+	picture = "accepted_culture_threshold"
+}
+hals_work1 = {
+	picture = "accepted_culture_threshold"
+}
+hals_work2 = {
+	picture = "accepted_culture_threshold"
+}
+hals_work3 = {
+	picture = "accepted_culture_threshold"
+} 
+rembrandt_work1 = {
+	picture = "accepted_culture_threshold"
+}
+rembrandt_work2 = {
+	picture = "accepted_culture_threshold"
+}
+rembrandt_work3 = {
+	picture = "accepted_culture_threshold"
+}
+caravaggio_work1 = {
+	picture = "accepted_culture_threshold"
+}
+caravaggio_work2 = {
+	picture = "accepted_culture_threshold"
+}
+caravaggio_work3 = {
+	picture = "accepted_culture_threshold"
 }

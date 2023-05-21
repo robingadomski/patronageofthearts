@@ -4552,6 +4552,13 @@ country_event = {
 			id = patronage_of_the_arts_titian.1
 			days = 7
 		}
+		add_country_modifier = {
+			name = titian_work1
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -4576,6 +4583,14 @@ country_event = {
 			id = patronage_of_the_arts_titian.2
 			days = 7
 		}
+		add_country_modifier = {
+			name = titian_work2
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -4599,6 +4614,14 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_titian.3
 			days = 7
+		}
+		add_country_modifier = {
+			name = titian_work3
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 2
 		}
 		add_treasury = -500
 		add_dip_power = 150
@@ -4633,10 +4656,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_titian_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -4658,10 +4677,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_titian_OPT2"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -4683,11 +4698,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_titian_OPT3"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 2
-			add_base_manpower = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -4749,6 +4759,13 @@ country_event = {
 			id = patronage_of_the_arts_tintoretto.1
 			days = 7
 		}
+		add_country_modifier = {
+			name = tintoretto_work1
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -4773,6 +4790,14 @@ country_event = {
 			id = patronage_of_the_arts_tintoretto.2
 			days = 7
 		}
+		add_country_modifier = {
+			name = tintoretto_work2
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -4796,6 +4821,14 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_tintoretto.3
 			days = 7
+		}
+		add_country_modifier = {
+			name = tintoretto_work3
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 2
 		}
 		add_treasury = -500
 		add_dip_power = 150
@@ -4830,10 +4863,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_tintoretto_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -4855,10 +4884,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_tintoretto_OPT2"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -4880,11 +4905,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_tintoretto_OPT3"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -4944,6 +4964,13 @@ country_event = {
 			id = patronage_of_the_arts_veronese.1
 			days = 7
 		}
+		add_country_modifier = {
+			name = veronese_work1
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -4968,6 +4995,14 @@ country_event = {
 			id = patronage_of_the_arts_veronese.2
 			days = 7
 		}
+		add_country_modifier = {
+			name = veronese_work2
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -4991,6 +5026,14 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_veronese.3
 			days = 7
+		}
+		add_country_modifier = {
+			name = veronese_work3
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 2
 		}
 		add_treasury = -500
 		add_dip_power = 150
@@ -5025,10 +5068,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_veronese_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5050,10 +5089,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_veronese_OPT2"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5075,11 +5110,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_veronese_OPT3"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5135,7 +5165,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmannerism_EVTOPT00041"		#ElGreco
-		
 		add_treasury = -300
 		add_prestige = 15
 		hidden_effect = {
@@ -5182,6 +5211,13 @@ country_event = {
 			id = patronage_of_the_arts_elgreco.1
 			days = 7
 		}
+		add_country_modifier = {
+			name = elgreco_work1
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -5206,6 +5242,14 @@ country_event = {
 			id = patronage_of_the_arts_elgreco.2
 			days = 7
 		}
+		add_country_modifier = {
+			name = elgreco_work2
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -5229,6 +5273,14 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_elgreco.3
 			days = 7
+		}
+		add_country_modifier = {
+			name = elgreco_work3
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
 		}
 		add_treasury = -500
 		add_dip_power = 150
@@ -5263,10 +5315,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_elgreco_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5288,10 +5336,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_elgreco_OPT2"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5313,11 +5357,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_elgreco_OPT3"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5379,6 +5418,13 @@ country_event = {
 			id = patronage_of_the_arts_wtewael.1
 			days = 7
 		}
+		add_country_modifier = {
+			name = wtewael_work1
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -5403,6 +5449,14 @@ country_event = {
 			id = patronage_of_the_arts_wtewael.2
 			days = 7
 		}
+		add_country_modifier = {
+			name = wtewael_work2
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -5426,6 +5480,14 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_wtewael.3
 			days = 7
+		}
+		add_country_modifier = {
+			name = wtewael_work3
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
 		}
 		add_treasury = -500
 		add_dip_power = 150
@@ -5460,10 +5522,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_wtewael_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5485,10 +5543,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_wtewael_OPT2"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5510,11 +5564,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_wtewael_OPT3"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5576,6 +5625,13 @@ country_event = {
 			id = patronage_of_the_arts_cranachyounger.1
 			days = 7
 		}
+		add_country_modifier = {
+			name = cranachyounger_work1
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -5600,6 +5656,14 @@ country_event = {
 			id = patronage_of_the_arts_cranachyounger.2
 			days = 7
 		}
+		add_country_modifier = {
+			name = cranachyounger_work2
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -5623,6 +5687,14 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_cranachyounger.3
 			days = 7
+		}
+		add_country_modifier = {
+			name = cranachyounger_work3
+			duration = 912500
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
 		}
 		add_treasury = -500
 		add_dip_power = 150
@@ -5657,10 +5729,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_cranachyounger_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5682,10 +5750,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_cranachyounger_OPT2"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5707,11 +5771,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_cranachyounger_OPT3"
-		random_owned_province = {
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-		}
 	}
 	option = {
 		name = "patronage_of_the_arts_enlarge"
@@ -5878,6 +5937,10 @@ country_event = {
 			id = patronage_of_the_arts_rubens.1
 			days = 7
 		}
+		add_country_modifier = {
+			name = rubens_work1
+			duration = 912500
+		}
 		every_country = {
 			limit = {
 				culture_group = germanic
@@ -5901,6 +5964,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_rubens.2
 			days = 7
+		}
+		add_country_modifier = {
+			name = rubens_work2
+			duration = 912500
 		}
 		every_country = {
 			limit = {
@@ -5928,6 +5995,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_rubens.3
 			days = 7
+		}
+		add_country_modifier = {
+			name = rubens_work3
+			duration = 912500
 		}
 		every_country = {
 			limit = {
@@ -6059,6 +6130,10 @@ country_event = {
 			id = patronage_of_the_arts_hals.1
 			days = 2
 		}
+		add_country_modifier = {
+			name = hals_work1
+			duration = 912500
+		}
 		every_country = {
 			limit = {
 				culture_group = germanic
@@ -6082,6 +6157,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_hals.2
 			days = 2
+		}
+		add_country_modifier = {
+			name = hals_work2
+			duration = 912500
 		}
 		every_country = {
 			limit = {
@@ -6109,6 +6188,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_hals.3
 			days = 2
+		}
+		add_country_modifier = {
+			name = hals_work3
+			duration = 912500
 		}
 		every_country = {
 			limit = {
@@ -6241,6 +6324,10 @@ country_event = {
 			id = patronage_of_the_arts_rembrandt.1
 			days = 2
 		}
+		add_country_modifier = {
+			name = rembrandt_work1
+			duration = 912500
+		}
 		every_country = {
 			limit = {
 				culture_group = germanic
@@ -6264,6 +6351,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_rembrandt.2
 			days = 2
+		}
+		add_country_modifier = {
+			name = rembrandt_work2
+			duration = 912500
 		}
 		every_country = {
 			limit = {
@@ -6291,6 +6382,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_rembrandt.3
 			days = 2
+		}
+		add_country_modifier = {
+			name = rembrandt_work3
+			duration = 912500
 		}
 		every_country = {
 			limit = {
@@ -6461,6 +6556,10 @@ country_event = {
 			id = patronage_of_the_arts_caravaggio.1
 			days = 2
 		}
+		add_country_modifier = {
+			name = caravaggio_work1
+			duration = 912500
+		}
 		add_treasury = -200
 		add_dip_power = 60
 		add_mil_power = 60
@@ -6485,6 +6584,10 @@ country_event = {
 			id = patronage_of_the_arts_caravaggio.2
 			days = 2
 		}
+		add_country_modifier = {
+			name = caravaggio_work2
+			duration = 912500
+		}
 		add_treasury = -300
 		add_dip_power = 100
 		add_mil_power = 100
@@ -6508,6 +6611,10 @@ country_event = {
 		country_event = {
 			id = patronage_of_the_arts_caravaggio.3
 			days = 2
+		}
+		add_country_modifier = {
+			name = caravaggio_work3
+			duration = 912500
 		}
 		add_treasury = -500
 		add_dip_power = 150
