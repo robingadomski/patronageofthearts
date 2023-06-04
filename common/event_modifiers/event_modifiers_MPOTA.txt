@@ -32,6 +32,15 @@ rogiervanderweyden_work2 = {
 rogiervanderweyden_work3 = {
 	picture = "accepted_culture_threshold"
 }
+hansmemling_work1 = {
+	picture = "accept_vassalization_reasons"
+}
+hansmemling_work2 = {
+	picture = "accept_vassalization_reasons"
+}
+hansmemling_work3 = {
+	picture = "accept_vassalization_reasons"
+}
 dirkbouts_work1 = {
 	picture = "accepted_culture_threshold"
 }

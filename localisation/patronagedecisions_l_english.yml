@@ -17,6 +17,8 @@
   desc_alberti_renovates_residency:0 "Leon Battista Alberti is renovating our residency. Rulers from abroad will be impressed by the upkeep of our residency!"
   patronage_of_the_arts_art1_title:0 "Open artwork 1"
   patronage_of_the_arts_art1_desc:0 "Opens artwork 1"
+  patronage_of_the_arts_1_antique_title:0 "Invest in the Antique Arts"
+  patronage_of_the_arts_1_antique_desc:0 "We should invest in the art of the past; the Antique Arts."
 ##############
 #
 #
@@ -57,6 +59,18 @@
   desc_rogiervanderweyden_work3:0 "Opens Van Der Weyden's 'The Altar of St. John'"
   rogiervanderweyden_work3_title:0 "Van Der Weyden's 'The Altar of St. John'"
   rogiervanderweyden_work3_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Rogier Van Der Weyden's 'The Altar of St. John'"
+  hansmemling_work1:0 "Hans Memling; Adoration of the Magi"
+  desc_hansmemling_work1:0 "Opens Hans Memling's 'Adoration of the Magi'"
+  hansmemling_work1_title:0 "Hans Memling's 'Adoration of the Magi'"
+  hansmemling_work1_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Hans Memling's 'Adoration of the Magi'"
+  hansmemling_work2:0 "Hans Memling; The Annunciation"
+  desc_hansmemling_work2:0 "Opens Hans Memling's 'The Annunciation'"
+  hansmemling_work2_title:0 "Hans Memling's 'The Annunciation'"
+  hansmemling_work2_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Hans Memling's 'The Annunciation'"
+  hansmemling_work3:0 "Hans Memling; The Last Judgement"
+  desc_hansmemling_work3:0 "Opens Hans Memling's 'The Last Judgement'"
+  hansmemling_work3_title:0 "Hans Memling's 'The Last Judgement'"
+  hansmemling_work3_desc:0 "We have bought a piece of fine art. This modifier allows you look at your collection whenever you want. Go to your decisions to view Hans Memling's 'The Last Judgement'"
   dirkbouts_work1:0 "Dirk Bouts; 'The Virgin and Child'"
   desc_dirkbouts_work1:0 "Opens Bouts' 'The Virgin and Child'"
   dirkbouts_work1_title:0 "Dirk Bouts' 'The Virgin and Child'"

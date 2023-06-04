@@ -13,6 +13,7 @@ country_decisions = {
 			has_dip_advisor = yes
 			years_of_income = 1
 			dip_power = 200
+			is_at_war = no
 		}
 		effect = {
 			country_event = {
@@ -39,6 +40,7 @@ country_decisions = {
 			has_adm_advisor = yes
 			stability = 1
 			years_of_income = 2
+			is_at_war = no
 		}
 		effect = {
 			country_event = {
@@ -71,6 +73,7 @@ country_decisions = {
 			adm_power = 200
 			dip_power = 200
 			mil_power = 200
+			is_at_war = no
 		}
 		effect = {
 			country_event = {
@@ -105,6 +108,7 @@ country_decisions = {
 			adm_power = 400
 			dip_power = 400
 			mil_power = 400
+			is_at_war = no
 		}
 		effect = {
 			country_event = {
@@ -139,10 +143,45 @@ country_decisions = {
 			adm_power = 250
 			dip_power = 250
 			mil_power = 250
+			is_at_war = no
 		}
 		effect = {
 			country_event = {
 				id = patronageoftheartsmedieval.1
+			}
+		}
+	}
+}
+country_decisions = {
+	patronage_of_the_arts_1_antique = {
+		color = { 232 157 6 }
+		potential = {
+			OR = {
+				culture_group = germanic
+				culture_group = latin
+				culture_group = french
+				culture_group = iberian
+			}
+		}
+		allow = {
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+			has_adm_advisor = yes
+			stability = 3
+			years_of_income = 10
+			prestige = 75
+			power_projection = 50
+			adm = 2
+			dip = 2
+			mil = 2
+			adm_power = 400
+			dip_power = 400
+			mil_power = 400
+			is_at_war = no
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_antiquearts.1
 			}
 		}
 	}
@@ -341,6 +380,66 @@ country_decisions = {
 			}
 			country_event = {
 				id = patronage_of_the_arts_boutslarge.1
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	hansmemling_work1 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = hansmemling_work1
+		}
+		allow = {
+			 has_country_modifier = hansmemling_work1 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_memling.1
+			}
+			country_event = {
+				id = patronage_of_the_arts_memlinglarge.1
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	hansmemling_work2 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = hansmemling_work2
+		}
+		allow = {
+			 has_country_modifier = hansmemling_work2 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_memling.2
+			}
+			country_event = {
+				id = patronage_of_the_arts_memlinglarge.2
+			}
+		}
+		
+	}
+}
+country_decisions = {
+	hansmemling_work3 = {
+		color = { 184 115 51 }
+		potential = { 
+			 has_country_modifier = hansmemling_work3
+		}
+		allow = {
+			 has_country_modifier = hansmemling_work3 
+		}
+		effect = {
+			country_event = {
+				id = patronage_of_the_arts_memling.3
+			}
+			country_event = {
+				id = patronage_of_the_arts_memlinglarge.3
 			}
 		}
 		
