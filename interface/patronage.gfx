@@ -1874,5 +1874,199 @@ spriteTypes = {
 		alwaystransparent = no
 	}
 }
-
-
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE101_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE101_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE102_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE102_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE103_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE103_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE104_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE104_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE105_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE105_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE106_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE106_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART103_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART103_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART104_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART104_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART105_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART105_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGE10057_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGE10057_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGE10058_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGE10058_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGE10059_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGE10059_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGE10060_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGE10060_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART106_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART106_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART107_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART107_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART108_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART108_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART109_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART109_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART110_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART110_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART111_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART111_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE107_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE107_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE108_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE108_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE109_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE109_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART112_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART112_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART113_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART113_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEART114_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEART114_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE110_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE110_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE111_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE111_eventPicture.dds"
+		alwaystransparent = no
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "ARTPATRONAGEARTLARGE112_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_patronage/ARTPATRONAGEARTLARGE109_eventPicture.dds"
+		alwaystransparent = no
+	}
+}

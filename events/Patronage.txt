@@ -6126,7 +6126,7 @@ country_event = {
 		}
 	}
 	option = {
-		#goes to option ID 3 (OPTION2) #invest in Italian art 
+		#goes to option ID 3 (OPTION3) invest in Spanish art
 		name = "patronageoftheartsbaroque_EVTOPT00003"
 		hidden_effect = {
 			country_event = {
@@ -7020,7 +7020,7 @@ country_event = {
 		add_prestige = 15
 		every_country = {
 			limit = {
-				culture_group = germanic
+				culture_group = latin
 			}
 			add_opinion = {
 				who = PREV
@@ -7044,7 +7044,7 @@ country_event = {
 		add_prestige = 22
 		every_country = {
 			limit = {
-				culture_group = germanic
+				culture_group = latin
 			}
 			add_opinion = {
 				who = PREV
@@ -7071,7 +7071,7 @@ country_event = {
 		add_army_tradition = 2
 		every_country = {
 			limit = {
-				culture_group = germanic
+				culture_group = latin
 			}
 			add_opinion = {
 				who = PREV
@@ -7090,7 +7090,7 @@ country_event = {
 	id = patronage_of_the_arts_gentileschi.1
 	title = "patronage_of_the_arts_gentileschiTITLE1"
 	desc = "patronage_of_the_arts_gentileschiDESC1"
-	picture = ARTPATRONAGEART068_eventPicture
+	picture = ARTPATRONAGEART103_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_gentileschi_OPT1"
@@ -7111,7 +7111,7 @@ country_event = {
 	id = patronage_of_the_arts_gentileschi.2
 	title = "patronage_of_the_arts_gentileschiTITLE2"
 	desc = "patronage_of_the_arts_gentileschiDESC2"
-	picture = ARTPATRONAGEART069_eventPicture
+	picture = ARTPATRONAGEART104_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_gentileschi_OPT2"
@@ -7132,7 +7132,7 @@ country_event = {
 	id = patronage_of_the_arts_gentileschi.3
 	title = "patronage_of_the_arts_gentileschiTITLE3"
 	desc = "patronage_of_the_arts_gentileschiDESC3"
-	picture = ARTPATRONAGEART070_eventPicture
+	picture = ARTPATRONAGEART105_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_gentileschi_OPT3"
@@ -7153,8 +7153,8 @@ country_event = {
 	# gentileschiLARGE1
 	id = patronage_of_the_arts_gentileschilarge.1
 	title = "patronage_of_the_arts_gentileschiTITLE1"
-	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE039_eventPicture
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE101_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_gentileschi_OPT2"
@@ -7165,7 +7165,7 @@ country_event = {
 	id = patronage_of_the_arts_gentileschilarge.2
 	title = "patronage_of_the_arts_gentileschiTITLE2"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE040_eventPicture
+	picture = ARTPATRONAGEARTLARGE102_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_gentileschi_OPT1"
@@ -7176,7 +7176,7 @@ country_event = {
 	id = patronage_of_the_arts_gentileschilarge.3
 	title = "patronage_of_the_arts_gentileschiTITLE3"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE041_eventPicture
+	picture = ARTPATRONAGEARTLARGE103_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_gentileschi_OPT3"
@@ -7366,14 +7366,14 @@ country_event = {
 }
 
 country_event = {
-	#ItalianBaroque
+	#SPANISHBaroque
 	id = patronageoftheartsbaroque.4
-	title = "patronageoftheartsbaroque_EVTTITLE00031"
-	desc = "patronageoftheartsbaroque_EVTDESC00031"
-	picture = ARTPATRONAGE10036_eventPicture
+	title = "patronageoftheartsbaroque_EVTTITLE00041"
+	desc = "patronageoftheartsbaroque_EVTDESC00041"
+	picture = ARTPATRONAGE10057_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = "patronageoftheartsbaroque_EVTOPT00031"		#Outside1
+		name = "patronageoftheartsbaroque_EVTOPT00041"		#de Ribera
 		add_treasury = -300
 		add_prestige = 15
 		hidden_effect = {
@@ -7384,8 +7384,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "patronageoftheartsbaroque_EVTOPT00032"		#Outside2
-		add_treasury = -200
+		name = "patronageoftheartsbaroque_EVTOPT00042"		#Velazquez
+		add_treasury = -700
 		add_prestige = 10
 		hidden_effect = {
 			country_event = {
@@ -7395,8 +7395,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "patronageoftheartsbaroque_EVTOPT00033"		#Outside3
-		add_treasury = -700
+		name = "patronageoftheartsbaroque_EVTOPT00043"		#De Zurbaran
+		add_treasury = -200
 		add_prestige = 12
 		hidden_effect = {
 			country_event = {
@@ -7404,6 +7404,702 @@ country_event = {
 				days = 2
 			}
 		}
+	}
+}
+country_event = {
+	#GUISEPEDERIBERA
+	id = patronageoftheartsbaroque.41
+	title = "patronage_of_the_arts_deriberaeventTITLE"
+	desc = "patronage_of_the_arts_deriberaeventDESC"
+	picture = ARTPATRONAGE10058_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_deriberaeventOPT1"		#DeRibera1
+		country_event = {
+			id = patronage_of_the_arts_deribera.1
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
+		add_country_modifier = {
+			name = deribera_work1
+			duration = 912500
+		}
+		add_treasury = -100
+		add_dip_power = 20
+		add_mil_power = 20
+		add_prestige = 5
+		add_legitimacy = 5
+		add_papal_influence = 15
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_deriberaeventOPT2"		#DeRibera2
+		country_event = {
+			id = patronage_of_the_arts_deribera.2
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+		add_country_modifier = {
+			name = deribera_work2
+			duration = 912500
+		}
+		add_treasury = -150
+		add_dip_power = 50
+		add_mil_power = 35
+		add_prestige = 8
+		add_legitimacy = 8
+		add_papal_influence = 25
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_deriberaeventOPT3"		#DeRibera3
+		country_event = {
+			id = patronage_of_the_arts_deribera.3
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = deribera_work3
+			duration = 912500
+		}
+		add_treasury = -180
+		add_dip_power = 50
+		add_mil_power = 50
+		add_adm_power = 25
+		add_prestige = 10
+		add_legitimacy = 10
+		add_papal_influence = 30
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+}
+namespace = patronage_of_the_arts_deribera
+country_event = {
+	#deribera1
+	id = patronage_of_the_arts_deribera.1
+	title = "patronage_of_the_arts_deriberaTITLE1"
+	desc = "patronage_of_the_arts_deriberaDESC1"
+	picture = ARTPATRONAGEART106_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_deribera_OPT1"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_deribera.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_deriberalarge.1
+		}
+	}
+}
+
+country_event = {
+	#deribera2
+	id = patronage_of_the_arts_deribera.2
+	title = "patronage_of_the_arts_deriberaTITLE2"
+	desc = "patronage_of_the_arts_deriberaDESC2"
+	picture = ARTPATRONAGEART107_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_deribera_OPT2"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_deribera.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_deriberalarge.2
+		}
+	}
+}
+
+country_event = {
+	#deribera3
+	id = patronage_of_the_arts_deribera.3
+	title = "patronage_of_the_arts_deriberaTITLE3"
+	desc = "patronage_of_the_arts_deriberaDESC3"
+	picture = ARTPATRONAGEART108_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_deribera_OPT3"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_deribera.3
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_deriberalarge.3
+		}
+	}
+}
+namespace = patronage_of_the_arts_deriberalarge
+country_event = {
+	#deriberaLARGE1
+	id = patronage_of_the_arts_deriberalarge.1
+	title = "patronage_of_the_arts_deriberaTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE104_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_deribera_OPT1"
+	}
+}
+country_event = {
+	#deriberaLARGE2
+	id = patronage_of_the_arts_deriberalarge.2
+	title = "patronage_of_the_arts_deriberaTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE105_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_deribera_OPT1"
+	}
+}
+country_event = {
+	#deriberaLARGE3
+	id = patronage_of_the_arts_deriberalarge.3
+	title = "patronage_of_the_arts_deriberaTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE106_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_deribera_OPT1"
+	}
+}
+country_event = {
+	#DIEGOVELAZQUEZ
+	id = patronageoftheartsbaroque.42
+	title = "patronage_of_the_arts_velazquezeventTITLE"
+	desc = "patronage_of_the_arts_velazquezeventDESC"
+	picture = ARTPATRONAGE10059_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_velazquezeventOPT1"		#Velazquez1
+		country_event = {
+			id = patronage_of_the_arts_velazquez.1
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
+		add_country_modifier = {
+			name = velazquez_work1
+			duration = 912500
+		}
+		add_treasury = -100
+		add_dip_power = 20
+		add_mil_power = 20
+		add_prestige = 5
+		add_legitimacy = 5
+		add_papal_influence = 15
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_velazquezeventOPT2"		#Velazquez2
+		country_event = {
+			id = patronage_of_the_arts_velazquez.2
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+		add_country_modifier = {
+			name = velazquez_work2
+			duration = 912500
+		}
+		add_treasury = -150
+		add_dip_power = 50
+		add_mil_power = 35
+		add_prestige = 8
+		add_legitimacy = 8
+		add_papal_influence = 25
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_velazquezeventOPT3"		#Velazquez3
+		country_event = {
+			id = patronage_of_the_arts_velazquez.3
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = velazquez_work3
+			duration = 912500
+		}
+		add_treasury = -180
+		add_dip_power = 50
+		add_mil_power = 50
+		add_adm_power = 25
+		add_prestige = 10
+		add_legitimacy = 10
+		add_papal_influence = 30
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+}
+namespace = patronage_of_the_arts_velazquez
+country_event = {
+	#velazquez1
+	id = patronage_of_the_arts_velazquez.1
+	title = "patronage_of_the_arts_velazquezTITLE1"
+	desc = "patronage_of_the_arts_velazquezDESC1"
+	picture = ARTPATRONAGEART111_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_velazquez_OPT1"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_velazquez.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_velazquezlarge.1
+		}
+	}
+}
+
+country_event = {
+	#velazquez2
+	id = patronage_of_the_arts_velazquez.2
+	title = "patronage_of_the_arts_velazquezTITLE2"
+	desc = "patronage_of_the_arts_velazquezDESC2"
+	picture = ARTPATRONAGEART109_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_velazquez_OPT2"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_velazquez.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_velazquezlarge.2
+		}
+	}
+}
+
+country_event = {
+	#velazquez3
+	id = patronage_of_the_arts_velazquez.3
+	title = "patronage_of_the_arts_velazquezTITLE3"
+	desc = "patronage_of_the_arts_velazquezDESC3"
+	picture = ARTPATRONAGEART110_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_velazquez_OPT3"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_velazquez.3
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_velazquezlarge.3
+		}
+	}
+}
+namespace = patronage_of_the_arts_velazquezlarge
+country_event = {
+	#velazquezLARGE1
+	id = patronage_of_the_arts_velazquezlarge.1
+	title = "patronage_of_the_arts_velazquezTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE107_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_velazquez_OPT1"
+	}
+}
+country_event = {
+	#velazquezLARGE2
+	id = patronage_of_the_arts_velazquezlarge.2
+	title = "patronage_of_the_arts_velazquezTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE108_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_velazquez_OPT1"
+	}
+}
+country_event = {
+	#velazquezLARGE3
+	id = patronage_of_the_arts_velazquezlarge.3
+	title = "patronage_of_the_arts_velazquezTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE109_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_velazquez_OPT1"
+	}
+}
+country_event = {
+	#DEZURUBAN
+	id = patronageoftheartsbaroque.43
+	title = "patronage_of_the_arts_dezurbaraneventTITLE"
+	desc = "patronage_of_the_arts_dezurbaraneventDESC"
+	picture = ARTPATRONAGE10060_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dezurbaraneventOPT1"		#DeZurbaran1
+		country_event = {
+			id = patronage_of_the_arts_dezurbaran.1
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+		}
+		add_country_modifier = {
+			name = dezurbaran_work1
+			duration = 912500
+		}
+		add_treasury = -100
+		add_dip_power = 20
+		add_mil_power = 20
+		add_prestige = 5
+		add_legitimacy = 5
+		add_papal_influence = 15
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_dezurbaraneventOPT2"		#DeZurbaran2
+		country_event = {
+			id = patronage_of_the_arts_dezurbaran.2
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+		add_country_modifier = {
+			name = dezurbaran_work2
+			duration = 912500
+		}
+		add_treasury = -150
+		add_dip_power = 50
+		add_mil_power = 35
+		add_prestige = 8
+		add_legitimacy = 8
+		add_papal_influence = 25
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+	option = {
+		name = "patronage_of_the_arts_dezurbaraneventOPT3"		#DeZurbaran3
+		country_event = {
+			id = patronage_of_the_arts_dezurbaran.3
+			days = 2
+		}
+		random_owned_province = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		add_country_modifier = {
+			name = dezurbaran_work3
+			duration = 912500
+		}
+		add_treasury = -180
+		add_dip_power = 50
+		add_mil_power = 50
+		add_adm_power = 25
+		add_prestige = 10
+		add_legitimacy = 10
+		add_papal_influence = 30
+		add_power_projection = {
+			type = 25_permanent_power_projection
+			amount = 1
+		}
+		every_country = {
+			limit = {
+				OR = {
+					ruler_culture = dutch
+					ruler_culture = flemish
+				}
+			}
+			add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+			reverse_add_opinion = {
+				who = PREV
+				modifier = invested_a_bit_in_cultural_heritage_of_region
+			}
+		}
+	}
+}
+namespace = patronage_of_the_arts_dezurbaran
+country_event = {
+	#dezurbaran1
+	id = patronage_of_the_arts_dezurbaran.1
+	title = "patronage_of_the_arts_dezurbaranTITLE1"
+	desc = "patronage_of_the_arts_dezurbaranDESC1"
+	picture = ARTPATRONAGEART112_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dezurbaran_OPT1"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_dezurbaran.1
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_dezurbaranlarge.1
+		}
+	}
+}
+
+country_event = {
+	#dezurbaran2
+	id = patronage_of_the_arts_dezurbaran.2
+	title = "patronage_of_the_arts_dezurbaranTITLE2"
+	desc = "patronage_of_the_arts_dezurbaranDESC2"
+	picture = ARTPATRONAGEART113_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dezurbaran_OPT2"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_dezurbaran.2
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_dezurbaranlarge.2
+		}
+	}
+}
+
+country_event = {
+	#dezurbaran3
+	id = patronage_of_the_arts_dezurbaran.3
+	title = "patronage_of_the_arts_dezurbaranTITLE3"
+	desc = "patronage_of_the_arts_dezurbaranDESC3"
+	picture = ARTPATRONAGEART114_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dezurbaran_OPT3"
+	}
+	option = {
+		name = "patronage_of_the_arts_enlarge"
+		country_event = {
+			id = patronage_of_the_arts_dezurbaran.3
+			days = 2
+		}
+		country_event = {
+			id = patronage_of_the_arts_dezurbaranlarge.3
+		}
+	}
+}
+namespace = patronage_of_the_arts_dezurbaranlarge
+country_event = {
+	#dezurbaranLARGE1
+	id = patronage_of_the_arts_dezurbaranlarge.1
+	title = "patronage_of_the_arts_dezurbaranTITLE1"
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE110_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dezurbaran_OPT1"
+	}
+}
+country_event = {
+	#dezurbaranLARGE2
+	id = patronage_of_the_arts_dezurbaranlarge.2
+	title = "patronage_of_the_arts_dezurbaranTITLE2"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE111_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dezurbaran_OPT1"
+	}
+}
+country_event = {
+	#dezurbaranLARGE3
+	id = patronage_of_the_arts_dezurbaranlarge.3
+	title = "patronage_of_the_arts_dezurbaranTITLE3"
+	desc = "patronage_of_the_arts_enlargeDESC1"
+	picture = ARTPATRONAGEARTLARGE112_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronage_of_the_arts_dezurbaran_OPT1"
 	}
 }
 
