@@ -2763,7 +2763,7 @@ country_event = {
 	id = patronageoftheartsrenaissance.1
 	title = "patronageoftheartsrenaissance_EVTTITLE00001"
 	desc = "patronageoftheartsrenaissanceEVTDESC00001"
-	picture = ARTPATRONAGE10009_eventPicture
+	picture = ARTPATRONAGE10009_eventPictpatronageoftheartsrenaissance.1ure
 	is_triggered_only = yes
 	trigger = {
 		is_year = 1500
@@ -4323,7 +4323,7 @@ country_event = {
 	id = patronage_of_the_arts_clouetlarge.1
 	title = "patronage_of_the_arts_clouetTITLE1"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE039_eventPicture
+	picture = ARTPATRONAGEARTLARGE044_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_clouet_OPT2"
@@ -4334,7 +4334,7 @@ country_event = {
 	id = patronage_of_the_arts_clouetlarge.2
 	title = "patronage_of_the_arts_clouetTITLE2"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE040_eventPicture
+	picture = ARTPATRONAGEARTLARGE045_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_clouet_OPT1"
@@ -4345,7 +4345,7 @@ country_event = {
 	id = patronage_of_the_arts_clouetlarge.3
 	title = "patronage_of_the_arts_clouetTITLE3"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE041_eventPicture
+	picture = ARTPATRONAGEARTLARGE046_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_clouet_OPT3"
@@ -4503,7 +4503,7 @@ country_event = {
 	id = patronage_of_the_arts_nasuhlarge.1
 	title = "patronage_of_the_arts_nasuhTITLE1"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE039_eventPicture
+	picture = ARTPATRONAGEARTLARGE047_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_nasuh_OPT2"
@@ -4514,7 +4514,7 @@ country_event = {
 	id = patronage_of_the_arts_nasuhlarge.2
 	title = "patronage_of_the_arts_nasuhTITLE2"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE040_eventPicture
+	picture = ARTPATRONAGEARTLARGE048_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_nasuh_OPT1"
@@ -4525,7 +4525,7 @@ country_event = {
 	id = patronage_of_the_arts_nasuhlarge.3
 	title = "patronage_of_the_arts_nasuhTITLE3"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE041_eventPicture
+	picture = ARTPATRONAGEARTLARGE049_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_nasuh_OPT3"
@@ -4683,7 +4683,7 @@ country_event = {
 	id = patronage_of_the_arts_samostrzelniklarge.1
 	title = "patronage_of_the_arts_samostrzelnikTITLE1"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE039_eventPicture
+	picture = ARTPATRONAGEARTLARGE050_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_samostrzelnik_OPT2"
@@ -4694,7 +4694,7 @@ country_event = {
 	id = patronage_of_the_arts_samostrzelniklarge.2
 	title = "patronage_of_the_arts_samostrzelnikTITLE2"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE040_eventPicture
+	picture = ARTPATRONAGEARTLARGE051_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_samostrzelnik_OPT1"
@@ -4705,7 +4705,7 @@ country_event = {
 	id = patronage_of_the_arts_samostrzelniklarge.3
 	title = "patronage_of_the_arts_samostrzelnikTITLE3"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE041_eventPicture
+	picture = ARTPATRONAGEARTLARGE052_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_samostrzelnik_OPT3"
@@ -7272,7 +7272,7 @@ country_event = {
 	id = patronage_of_the_arts_bernini.1
 	title = "patronage_of_the_arts_berniniTITLE1"
 	desc = "patronage_of_the_arts_berniniDESC1"
-	picture = ARTPATRONAGEART068_eventPicture
+	picture = ARTPATRONAGEART115_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_bernini_OPT1"
@@ -7293,7 +7293,7 @@ country_event = {
 	id = patronage_of_the_arts_bernini.2
 	title = "patronage_of_the_arts_berniniTITLE2"
 	desc = "patronage_of_the_arts_berniniDESC2"
-	picture = ARTPATRONAGEART069_eventPicture
+	picture = ARTPATRONAGEART116_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_bernini_OPT2"
@@ -7314,7 +7314,7 @@ country_event = {
 	id = patronage_of_the_arts_bernini.3
 	title = "patronage_of_the_arts_berniniTITLE3"
 	desc = "patronage_of_the_arts_berniniDESC3"
-	picture = ARTPATRONAGEART070_eventPicture
+	picture = ARTPATRONAGEART117_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_bernini_OPT3"
@@ -7335,8 +7335,8 @@ country_event = {
 	# berniniLARGE1
 	id = patronage_of_the_arts_berninilarge.1
 	title = "patronage_of_the_arts_berniniTITLE1"
-	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE039_eventPicture
+	desc = "patronage_of_the_arts_enlargeDESC2"
+	picture = ARTPATRONAGEARTLARGE113_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_bernini_OPT2"
@@ -7347,7 +7347,7 @@ country_event = {
 	id = patronage_of_the_arts_berninilarge.2
 	title = "patronage_of_the_arts_berniniTITLE2"
 	desc = "patronage_of_the_arts_enlargeDESC1"
-	picture = ARTPATRONAGEARTLARGE040_eventPicture
+	picture = ARTPATRONAGEARTLARGE114_eventPicture
 	is_triggered_only = yes
 	option = {
 		name = "patronage_of_the_arts_bernini_OPT1"
@@ -8342,8 +8342,55 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmedievaldivinacommedia_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
+	}
+	option = {
+		name = "patronageoftheartsmedievaldivinacommedia_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievaldivinacommedia.2
+			days = 2
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedievaldivinacommedia_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievaldivinacommedia.3
+			days = 2
+		}
+	}
+}
+country_event = {
+	#divinacommedia2
+	id = patronageoftheartsmedievaldivinacommedia.2
+	title = "patronageoftheartsmedievaldivinacommediaTITLE1"
+	desc = "patronageoftheartsmedievaldivinacommediaTRANSL1"
+	picture = ARTPATRONAGEART073_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievaldivinacommedia_OPT1"
+	}
+	option = {
+		name = "patronageoftheartsmedievaldivinacommedia_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievaldivinacommedia.3
+			days = 2
+		}
+	}
+}
+country_event = {
+	#divinacommedia3
+	id = patronageoftheartsmedievaldivinacommedia.3
+	title = "patronageoftheartsmedievaldivinacommediaTITLE1"
+	desc = "patronageoftheartsmedievaldivinacommediaTRANSL2"
+	picture = ARTPATRONAGEART073_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievaldivinacommedia_OPT1"
+	}
+	option = {
+		name = "patronageoftheartsmedievaldivinacommedia_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievaldivinacommedia.2
+			days = 2
 		}
 	}
 }
@@ -8357,8 +8404,55 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmedievalcanterburytales_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
+	}
+	option = {
+		name = "patronageoftheartsmedievalcanterburytales_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievalcanterburytales.2
+			days = 2
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedievalcanterburytales_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievalcanterburytales.3
+			days = 2
+		}
+	}
+}
+country_event = {
+	#canterburytales2
+	id = patronageoftheartsmedievalcanterburytales.2
+	title = "patronageoftheartsmedievalcanterburytalesTITLE1"
+	desc = "patronageoftheartsmedievalcanterburytalesTRANSL1"
+	picture = ARTPATRONAGEART074_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalcanterburytales_OPT1"
+	}
+	option = {
+		name = "patronageoftheartsmedievalcanterburytales_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievalcanterburytales.3
+			days = 2
+		}
+	}
+}
+country_event = {
+	#canterburytales3
+	id = patronageoftheartsmedievalcanterburytales.3
+	title = "patronageoftheartsmedievalcanterburytalesTITLE1"
+	desc = "patronageoftheartsmedievalcanterburytalesTRANSL2"
+	picture = ARTPATRONAGEART074_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalcanterburytales_OPT1"
+	}
+	option = {
+		name = "patronageoftheartsmedievalcanterburytales_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievalcanterburytales.2
+			days = 2
 		}
 	}
 }
@@ -8372,9 +8466,42 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmedievaldecamerone_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
+	}
+	option = {
+		name = "patronageoftheartsmedievaldecamerone_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievaldecamerone.2
+			days = 2
 		}
+	}
+	option = {
+		name = "patronageoftheartsmedievaldecamerone_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievaldecamerone.3
+			days = 2
+		}
+	}
+}
+country_event = {
+	#decameron2
+	id = patronageoftheartsmedievaldecameron.2
+	title = "patronageoftheartsmedievaldecameronTITLE1"
+	desc = "patronageoftheartsmedievaldecameronTRANSL1"
+	picture = ARTPATRONAGEART075_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievaldecameron_OPT1"
+	}
+}
+country_event = {
+	#decameron3
+	id = patronageoftheartsmedievaldecameron.3
+	title = "patronageoftheartsmedievaldecameronTITLE1"
+	desc = "patronageoftheartsmedievaldecameronTRANSL2"
+	picture = ARTPATRONAGEART075_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievaldecameron_OPT1"
 	}
 }
 namespace = patronageoftheartsmedievalilcanzoniere
@@ -8387,9 +8514,42 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmedievalilcanzoniere_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
+	}
+	option = {
+		name = "patronageoftheartsmedievalilcanzoniere_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievalilcanzoniere.2
+			days = 2
 		}
+	}
+	option = {
+		name = "patronageoftheartsmedievalilcanzoniere_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievalilcanzoniere.3
+			days = 2
+		}
+	}
+}
+country_event = {
+	#ilcanzoniere2
+	id = patronageoftheartsmedievalilcanzoniere.2
+	title = "patronageoftheartsmedievalilcanzoniereTITLE1"
+	desc = "patronageoftheartsmedievalilcanzoniereTRANSL1"
+	picture = ARTPATRONAGEART076_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalilcanzoniere_OPT1"
+	}
+}
+country_event = {
+	#ilcanzoniere
+	id = patronageoftheartsmedievalilcanzoniere.3
+	title = "patronageoftheartsmedievalilcanzoniereTITLE1"
+	desc = "patronageoftheartsmedievalilcanzoniereTRANSL2"
+	picture = ARTPATRONAGEART076_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalilcanzoniere_OPT1"
 	}
 }
 namespace = patronageoftheartsmedievalvandenvosreynaerde
@@ -8402,13 +8562,44 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT1"
-		random_owned_province = {
-			add_base_tax = 1
+	}
+	option = {
+		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievalvandenvosreynaerde.2
+			days = 2
+		}
+	}
+	option = {
+		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievalvandenvosreynaerde.3
+			days = 2
 		}
 	}
 }
-
-
+country_event = {
+	#vandenvosreynaerde1
+	id = patronageoftheartsmedievalvandenvosreynaerde.2
+	title = "patronageoftheartsmedievalvandenvosreynaerdeTITLE1"
+	desc = "patronageoftheartsmedievalvandenvosreynaerdeTRANSL1"
+	picture = ARTPATRONAGEART077_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT1"
+	}
+}
+country_event = {
+	#vandenvosreynaerde2
+	id = patronageoftheartsmedievalvandenvosreynaerde.3
+	title = "patronageoftheartsmedievalvandenvosreynaerdeTITLE1"
+	desc = "patronageoftheartsmedievalvandenvosreynaerdeTRANSL2"
+	picture = ARTPATRONAGEART077_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT1"
+	}
+}
 
 ##########################################################################################
 ###

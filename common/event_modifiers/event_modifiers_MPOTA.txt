@@ -274,3 +274,30 @@ caravaggio_work2 = {
 caravaggio_work3 = {
 	picture = "accepted_culture_threshold"
 }
+deribera_work1 = {
+	picture = "accepted_culture_threshold"
+}
+deribera_work2 = {
+	picture = "accepted_culture_threshold"
+}
+deribera_work3 = {
+	picture = "accepted_culture_threshold"
+}
+velazquez_work1 = {
+	picture = "accepted_culture_threshold"
+}
+velazquez_work2 = {
+	picture = "accepted_culture_threshold"
+}
+velazquez_work3 = {
+	picture = "accepted_culture_threshold"
+}
+dezurbaran_work1 = {
+	picture = "accepted_culture_threshold"
+}
+dezurbaran_work2 = {
+	picture = "accepted_culture_threshold"
+}
+dezurbaran_work3 = {
+	picture = "accepted_culture_threshold"
+}
