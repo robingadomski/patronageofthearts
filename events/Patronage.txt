@@ -8484,24 +8484,38 @@ country_event = {
 }
 country_event = {
 	#decameron2
-	id = patronageoftheartsmedievaldecameron.2
-	title = "patronageoftheartsmedievaldecameronTITLE1"
-	desc = "patronageoftheartsmedievaldecameronTRANSL1"
+	id = patronageoftheartsmedievaldecamerone.2
+	title = "patronageoftheartsmedievaldecameroneTITLE1"
+	desc = "patronageoftheartsmedievaldecameroneTRANSL1"
 	picture = ARTPATRONAGEART075_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = "patronageoftheartsmedievaldecameron_OPT1"
+		name = "patronageoftheartsmedievaldecamerone_OPT1"
+	}
+	option = {
+		name = "patronageoftheartsmedievaldecamerone_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievaldecamerone.3
+			days = 2
+		}
 	}
 }
 country_event = {
 	#decameron3
-	id = patronageoftheartsmedievaldecameron.3
-	title = "patronageoftheartsmedievaldecameronTITLE1"
-	desc = "patronageoftheartsmedievaldecameronTRANSL2"
+	id = patronageoftheartsmedievaldecamerone.3
+	title = "patronageoftheartsmedievaldecameroneTITLE1"
+	desc = "patronageoftheartsmedievaldecameroneTRANSL2"
 	picture = ARTPATRONAGEART075_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = "patronageoftheartsmedievaldecameron_OPT1"
+		name = "patronageoftheartsmedievaldecamerone_OPT1"
+	}
+	option = {
+		name = "patronageoftheartsmedievaldecamerone_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievaldecamerone.2
+			days = 2
+		}
 	}
 }
 namespace = patronageoftheartsmedievalilcanzoniere
@@ -8540,6 +8554,13 @@ country_event = {
 	option = {
 		name = "patronageoftheartsmedievalilcanzoniere_OPT1"
 	}
+	option = {
+		name = "patronageoftheartsmedievalilcanzoniere_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievalilcanzoniere.3
+			days = 2
+		}
+	}
 }
 country_event = {
 	#ilcanzoniere
@@ -8550,6 +8571,13 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmedievalilcanzoniere_OPT1"
+	}
+	option = {
+		name = "patronageoftheartsmedievalilcanzoniere_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievalilcanzoniere.2
+			days = 2
+		}
 	}
 }
 namespace = patronageoftheartsmedievalvandenvosreynaerde
@@ -8588,6 +8616,13 @@ country_event = {
 	option = {
 		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT1"
 	}
+	option = {
+		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT3"
+		country_event = {
+			id = patronageoftheartsmedievalvandenvosreynaerde.3
+			days = 2
+		}
+	}
 }
 country_event = {
 	#vandenvosreynaerde2
@@ -8598,6 +8633,13 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT1"
+	}
+	option = {
+		name = "patronageoftheartsmedievalvandenvosreynaerde_OPT2"
+		country_event = {
+			id = patronageoftheartsmedievalvandenvosreynaerde.2
+			days = 2
+		}
 	}
 }
 
